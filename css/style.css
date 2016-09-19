@@ -1,0 +1,1707 @@
+@charset "UTF-8";
+@import url("//hello.myfonts.net/count/2fa00c");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  /* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: #f15a22;
+  color: #fff;
+  text-shadow: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none; }
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3121164, 2015-11-06T11:57:59-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirLTStd-Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: NexaBold by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/bold/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * Licensed pageviews: 20,000
+ * 
+ * Webfont: NexaLight by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/light/
+ * Copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * Licensed pageviews: 20,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3121164
+ * 
+ * © 2015 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url("../webfonts/2FA00C_0_0.eot");
+  src: url("../webfonts/2FA00C_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/2FA00C_0_0.woff2") format("woff2"), url("../webfonts/2FA00C_0_0.woff") format("woff"), url("../webfonts/2FA00C_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'NexaBold';
+  src: url("../webfonts/2FA00C_1_0.eot");
+  src: url("../webfonts/2FA00C_1_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/2FA00C_1_0.woff2") format("woff2"), url("../webfonts/2FA00C_1_0.woff") format("woff"), url("../webfonts/2FA00C_1_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'NexaLight';
+  src: url("../webfonts/2FA00C_2_0.eot");
+  src: url("../webfonts/2FA00C_2_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/2FA00C_2_0.woff2") format("woff2"), url("../webfonts/2FA00C_2_0.woff") format("woff"), url("../webfonts/2FA00C_2_0.ttf") format("truetype"); }
+body {
+  background-color: #fcfcfc;
+  color: #4D4D4D; }
+
+a {
+  color: #4D4D4D; }
+
+.venture-button {
+  color: #7DB1B1; }
+
+.venture-button::before {
+  background: #7DB1B1; }
+
+.venture-button:hover {
+  border-color: #7DB1B1; }
+
+.guitar-button {
+  color: #7889A7; }
+
+.guitar-button::before {
+  background: #7889A7; }
+
+.guitar-button:hover {
+  border-color: #7889A7; }
+
+.gravity-button {
+  color: #DE5998; }
+
+.gravity-button::before {
+  background: #DE5998; }
+
+.gravity-button:hover {
+  border-color: #DE5998; }
+
+.moad-button {
+  color: #A4AE9B; }
+
+.moad-button::before {
+  background: #A4AE9B; }
+
+.moad-button:hover {
+  border-color: #A4AE9B; }
+
+.nav-link {
+  font-family: NexaLight;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #4D4D4D;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400; }
+
+.underline a {
+  padding: 1px 0; }
+
+.underline a::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  transform: translateY(3px); }
+
+.underline a:hover::after,
+.underline a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px); }
+
+.home-link {
+  font-family: NexaBold;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #4D4D4D;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1.2em; }
+
+.line-flex a {
+  color: #4D4D4D;
+  padding: 0px; }
+
+.line-flex a::after {
+  position: absolute;
+  top: 100%;
+  left: 38%;
+  width: 20%;
+  height: 3px;
+  content: '';
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.line-flex a:hover::after,
+.line-flex a:focus::after {
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.link-holder {
+  text-align: center;
+  padding: 20px 0px 50px 0px; }
+  .link-holder h4 {
+    font-family: NexaLight;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #a5a5a5; }
+
+.button-detail {
+  font-family: NexaLight;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #d1d1d1; }
+
+.button-link {
+  font-family: NexaBold;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  min-width: 150px;
+  max-width: 250px;
+  display: inline-block;
+  margin: 1em;
+  padding: 1.5em 2em 1em 2em;
+  border: 3px solid;
+  background: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1; }
+
+.button--ujarak {
+  -webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s; }
+
+.button--ujarak::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
+
+.button--ujarak.button--round-s::before {
+  border-radius: 2px; }
+
+.button--ujarak.button--inverted::before {
+  background: #7986CB; }
+
+.button--ujarak,
+.button--ujarak::before {
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
+
+.button--ujarak:hover {
+  color: #fff; }
+
+.button--ujarak.button--inverted:hover {
+  color: #37474F;
+  border-color: #fff; }
+
+.button--ujarak:hover::before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.home-venture::after {
+  background-color: #7DB1B1; }
+
+.home-guitar::after {
+  background-color: #7889A7; }
+
+.home-gravity::after {
+  background-color: #DE5998; }
+
+.home-moad::after {
+  background-color: #A4AE9B; }
+
+.nav-bg {
+  background-color: #fff;
+  padding: 40px 0px 30px 0px;
+  text-align: center;
+  z-index: 99; }
+  .nav-bg .kc-logo-holder ul li {
+    display: block; }
+    .nav-bg .kc-logo-holder ul li .kc-logo {
+      background-image: url("../img/home/kc-logo-scroll.svg");
+      background-repeat: no-repeat;
+      display: inline-block;
+      height: 90px;
+      width: 90px; }
+    .nav-bg .kc-logo-holder ul li .kc-name {
+      display: inline-block;
+      height: 50px;
+      width: 224px;
+      margin: 20px 0px 20px 0px; }
+  .nav-bg .nav-links-holder ul {
+    list-style: none; }
+    .nav-bg .nav-links-holder ul li {
+      display: inline-block;
+      padding: 0px 10px 0px 10px; }
+      .nav-bg .nav-links-holder ul li a {
+        font-size: 1.2em;
+        font-family: NexaLight;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        color: #4D4D4D; }
+
+.nav-bg-cs {
+  padding: 40px 0px 30px 0px;
+  text-align: center;
+  z-index: 98;
+  background-color: #fff; }
+  .nav-bg-cs .kc-logo-holder ul li {
+    display: block; }
+    .nav-bg-cs .kc-logo-holder ul li .kc-logo {
+      background-image: url("../img/home/kc-logo-scroll.svg");
+      background-repeat: no-repeat;
+      display: inline-block;
+      height: 75px;
+      width: 75px;
+      margin-bottom: 30px; }
+  .nav-bg-cs .nav-links-holder ul {
+    list-style: none; }
+    .nav-bg-cs .nav-links-holder ul li {
+      display: inline-block;
+      padding: 0px 10px 0px 10px; }
+      .nav-bg-cs .nav-links-holder ul li a {
+        font-size: 1.2em;
+        font-family: NexaLight;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        color: #4D4D4D; }
+      .nav-bg-cs .nav-links-holder ul li .selected {
+        color: #FFAD59; }
+
+.home-section {
+  height: 100vh; }
+
+.home-label {
+  text-align: center; }
+  .home-label ul {
+    list-style: none;
+    display: inline-block; }
+    .home-label ul h1 {
+      font-family: NexaBold;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 2.5em;
+      text-transform: uppercase;
+      line-height: 1em;
+      color: #4F4F4F;
+      margin-bottom: 5px; }
+    .home-label ul h2 {
+      font-family: NexaLight;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      color: #4F4F4F;
+      margin-bottom: 40px; }
+      .home-label ul h2 span {
+        padding: 0px 5px 0px 5px; }
+
+.venture-bg {
+  background: url(../img/home/venture-bg-bw.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: 1; }
+  .venture-bg .gradient {
+    background: url(../img/home/gradient.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 165px;
+    width: 100%; }
+  .venture-bg .row {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .venture-bg .row .venture-laptop-home-bg {
+      margin-bottom: 40px;
+      text-align: center; }
+      .venture-bg .row .venture-laptop-home-bg .venture-laptop-home {
+        max-width: 100%; }
+
+.guitar-bg {
+  background: url(../img/home/guitar-center-bg-bw.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: 2; }
+  .guitar-bg .row {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .guitar-bg .row .guitar-ipad-bg {
+      margin-bottom: 40px;
+      text-align: center; }
+      .guitar-bg .row .guitar-ipad-bg .guitar-center-ipad-home {
+        max-width: 90%; }
+
+.gravity-bg {
+  background: url(../img/home/gravity-bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  background-color: #f3f3f3;
+  position: relative;
+  z-index: 3; }
+  .gravity-bg .row {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .gravity-bg .row .gravity-screen-bg {
+      margin-bottom: 40px;
+      text-align: center; }
+      .gravity-bg .row .gravity-screen-bg .gravity-screen-home {
+        max-width: 85%; }
+
+.moad-bg {
+  background: url(../img/home/moad-cover-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  z-index: 4; }
+  .moad-bg .row {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .moad-bg .row .moad-cards-bg {
+      margin-bottom: 40px;
+      text-align: center; }
+      .moad-bg .row .moad-cards-bg .moad-cards-home {
+        max-width: 90%; }
+
+.footer-home {
+  height: inherit;
+  text-align: center;
+  padding: 50px 0px 40px 0px; }
+  .footer-home .email {
+    font-size: 1.1em;
+    font-family: NexaLight;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #4D4D4D; }
+
+.case-study-bg {
+  height: 88vh;
+  background-color: #f2f2f2;
+  text-align: center; }
+
+.about-description {
+  padding: 50px 0px 50px 0px;
+  text-align: center; }
+  .about-description h2 {
+    font-family: NexaBold;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #4D4D4D !important; }
+  .about-description h3 {
+    font-family: NexaLight;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.1em; }
+  .about-description p {
+    font-family: AvenirLTStd-Light;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 1.2em;
+    text-rendering: optimizeLegibility;
+    padding-top: 15px; }
+
+.about-description-link {
+  padding: 50px 0px 10px 0px;
+  text-align: center; }
+  .about-description-link h2 {
+    font-family: NexaBold;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #4D4D4D !important; }
+  .about-description-link h3 {
+    font-family: NexaLight;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.1em; }
+  .about-description-link p {
+    font-family: AvenirLTStd-Light;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 1.2em;
+    text-rendering: optimizeLegibility;
+    padding-top: 15px; }
+
+.description h2 {
+  text-align: center;
+  font-family: NexaBold;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: #4D4D4D !important; }
+.description p {
+  font-family: AvenirLTStd-Light;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5em;
+  text-align: left;
+  font-size: 1.2em;
+  text-rendering: optimizeLegibility;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+#venture-bg {
+  background: url(../img/venture/venture-cover-01.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom; }
+  #venture-bg .about-description {
+    padding: 70px 0px 70px 0px;
+    text-align: center; }
+    #venture-bg .about-description h2 {
+      font-family: NexaBold;
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 1.4em;
+      color: #4D4D4D !important; }
+    #venture-bg .about-description h3 {
+      font-family: NexaLight;
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 1.1em; }
+    #venture-bg .about-description p {
+      font-family: AvenirLTStd-Light;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.5em;
+      text-align: left;
+      font-size: 1.2em;
+      text-rendering: optimizeLegibility;
+      padding-top: 15px; }
+  #venture-bg .description h2 {
+    text-align: center;
+    font-family: NexaBold;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #4D4D4D !important; }
+  #venture-bg .description p {
+    font-family: AvenirLTStd-Light;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 1.2em;
+    text-rendering: optimizeLegibility;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.venture-logo {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: auto;
+  max-width: 80%; }
+
+#venture-tags {
+  color: #7DB1B1; }
+
+.venture-search-bg {
+  background: url(../img/venture/venture-cover-02.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 54%;
+  margin-bottom: 18%;
+  position: relative; }
+  .venture-search-bg .venture-laptop {
+    position: absolute;
+    padding-top: 50px;
+    max-width: 90%;
+    height: auto;
+    right: 0;
+    left: 0;
+    margin: auto; }
+
+.venture-browse-bg {
+  background: url(../img/venture/venture-cover-03.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 59%;
+  position: relative; }
+  .venture-browse-bg .venture-browse-screens {
+    position: absolute;
+    max-width: 98%;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto; }
+
+.venture-comment-bg {
+  background: url(../img/venture/venture-comment-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 59%;
+  position: relative; }
+  .venture-comment-bg .venture-comment-screen {
+    position: absolute;
+    max-width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 0px; }
+
+#guitar-center-bg {
+  background: url(../img/guitar-center/guitar-center-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom; }
+  #guitar-center-bg .guitar-center-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 33%; }
+
+#guitar-center-tags {
+  color: #7889A7; }
+
+.video-holder-bg {
+  background-color: #1f2125; }
+  .video-holder-bg .video-holder {
+    padding: 20px 0px 20px 0px;
+    margin: 0 auto;
+    width: 80%; }
+
+iframe {
+  width: 100%;
+  height: auto; }
+
+.guitar-ipad-bg-cs {
+  background: url(../img/guitar-center/guitar-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5%;
+  padding-bottom: 60%;
+  position: relative; }
+  .guitar-ipad-bg-cs .guitar-ipad-cs {
+    position: absolute;
+    padding-top: 52px;
+    max-width: 88%;
+    height: auto;
+    right: 0;
+    left: 0;
+    margin: auto; }
+
+.guitar-specs-bg {
+  background: url(../img/guitar-center/guitar-screen-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 55%;
+  position: relative; }
+  .guitar-specs-bg .guitar-screens {
+    position: absolute;
+    max-width: 98%;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto; }
+
+.guitar-gps-bg {
+  background: url(../img/guitar-center/guitar-gps-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 58%;
+  position: relative; }
+  .guitar-gps-bg .guitar-gps {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    max-height: 65%;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.guitar-logo-bg {
+  background: url(../img/guitar-center/guitar-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 58%;
+  position: relative; }
+  .guitar-logo-bg .guitar-center-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    max-height: 70%;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+#gravity-bg-cs {
+  background: url(../img/gravity/gravity-cover.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-color: #F8F8F8; }
+  #gravity-bg-cs .gravity-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 78%; }
+
+#gravity-tags {
+  color: #DE5998; }
+
+.gravity-screen-bg-cs {
+  padding-bottom: 50%;
+  position: relative;
+  background-color: #303030;
+  display: block; }
+  .gravity-screen-bg-cs .gravity-team video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    border: 0; }
+
+.gravity-timeline-bg {
+  padding-bottom: 70%;
+  position: relative;
+  background-color: #303030;
+  display: block; }
+  .gravity-timeline-bg .gravity-timeline video {
+    position: absolute;
+    padding: 20px 0px 20px 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+
+.gravity-writing-bg {
+  padding-bottom: 70%;
+  position: relative;
+  background-color: #303030;
+  display: block; }
+  .gravity-writing-bg .gravity-writing video {
+    position: absolute;
+    padding: 20px 0px 20px 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+
+.gravity-pages-bg {
+  padding-bottom: 50%;
+  position: relative;
+  background-color: #303030;
+  display: block; }
+  .gravity-pages-bg .gravity-pages video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    border: 0; }
+
+.gravity-review-bg {
+  padding-bottom: 70%;
+  position: relative;
+  background-color: #303030;
+  display: block; }
+  .gravity-review-bg .gravity-review video {
+    position: absolute;
+    padding: 20px 0px 20px 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+
+.gravity-download-bg {
+  padding-bottom: 70%;
+  position: relative;
+  background-color: #303030;
+  display: block; }
+  .gravity-download-bg .gravity-download video {
+    position: absolute;
+    padding: 20px 0px 20px 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+
+#moad-tags {
+  color: #A4AE9B; }
+
+#moad-bg-cs {
+  background: url(../img/moad/moad-cover-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom right; }
+  #moad-bg-cs .moad-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 70%;
+    margin-top: -3%; }
+
+.moad-cards-case-bg {
+  background: url(../img/moad/moad-cards.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #ecebeb;
+  padding-bottom: 59%;
+  position: relative; }
+  .moad-cards-case-bg .moad-app {
+    position: absolute;
+    max-width: 65%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 0px; }
+
+.moad-poster-bg {
+  background: url(../img/moad/city-texture.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15%;
+  padding-bottom: 79%;
+  position: relative; }
+  .moad-poster-bg .moad-poster {
+    position: absolute;
+    padding-top: 28px;
+    max-width: 90%;
+    height: auto;
+    right: 0;
+    left: 0;
+    margin: auto; }
+
+.moad-app-bg {
+  background: url(../img/moad/moad-app.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 59%;
+  position: relative; }
+
+.moad-building-bg {
+  background: url(../img/moad/museumfront.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 59%;
+  position: relative; }
+
+.case-study-footer {
+  background-color: #f7f7f7; }
+  .case-study-footer a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px 0px 25px 0px;
+    transition: all 0.5s ease; }
+    .case-study-footer a:hover {
+      background-color: #5b5b5b;
+      transition: all 0.5s ease; }
+      .case-study-footer a:hover h3 {
+        color: #fff;
+        transition: all 0.5s ease; }
+      .case-study-footer a:hover h4 {
+        color: #FFAD59;
+        transition: all 0.5s ease; }
+    .case-study-footer a h3 {
+      font-family: NexaBold;
+      font-weight: normal;
+      font-style: normal;
+      color: #4D4D4D;
+      text-transform: uppercase; }
+    .case-study-footer a h4 {
+      font-family: NexaLight;
+      font-weight: normal;
+      font-style: normal;
+      color: #FFAD59;
+      text-transform: uppercase; }
+
+.slash {
+  color: #aaa;
+  padding: 0px 5px 0px 5px; }
+
+.contact-bg {
+  background-color: #f3f3f3;
+  padding: 15% 0px 15% 0px;
+  text-align: center; }
+  .contact-bg .contact-content {
+    text-align: center; }
+    .contact-bg .contact-content .profile {
+      height: 150px;
+      width: auto; }
+    .contact-bg .contact-content .intro-line {
+      color: #FFAD59;
+      font-family: NexaBold;
+      font-weight: normal;
+      font-style: normal;
+      padding-top: 20px;
+      font-size: 1.5em; }
+    .contact-bg .contact-content p {
+      font-family: AvenirLTStd-Light;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.5em;
+      color: #4D4D4D;
+      font-size: 1.1em;
+      text-rendering: optimizeLegibility;
+      padding-top: 15px;
+      text-align: center; }
+    .contact-bg .contact-content .email-link {
+      color: #1A84BC;
+      transition: all 0.5s ease; }
+    .contact-bg .contact-content .email-link:hover {
+      color: #6ec1ea;
+      transition: all 0.5s ease; }
+    .contact-bg .contact-content #contact-line {
+      font-size: 1em;
+      margin-top: 40px;
+      color: #aaa; }
+    .contact-bg .contact-content .resume:hover {
+      color: #FFAD59;
+      transition: all 0.5s ease; }
+    .contact-bg .contact-content .linked-in:hover {
+      color: #1A84BC;
+      transition: all 0.5s ease; }
+    .contact-bg .contact-content .dribbble:hover {
+      color: #ea4c89;
+      transition: all 0.5s ease; }
+
+.contact-footer {
+  text-align: center;
+  background-color: #fcfcfc;
+  padding: 50px 0px 40px 0px; }
+  .contact-footer .email-link:hover {
+    color: #FFAD59;
+    transition: all 0.5s ease; }
+  .contact-footer #contact-line {
+    font-size: 1em;
+    color: #aaa; }
+  .contact-footer .resume:hover {
+    color: #FFAD59;
+    transition: all 0.5s ease; }
+  .contact-footer .linked-in:hover {
+    color: #1A84BC;
+    transition: all 0.5s ease; }
+  .contact-footer .dribbble:hover {
+    color: #ea4c89;
+    transition: all 0.5s ease; }
+
+.contact-footer-cs {
+  text-align: center;
+  background-color: #fcfcfc;
+  padding: 40px 0px 15px 0px; }
+  .contact-footer-cs .email-link:hover {
+    color: #FFAD59;
+    transition: all 0.5s ease; }
+  .contact-footer-cs #contact-line {
+    font-size: 1em;
+    color: #aaa; }
+  .contact-footer-cs .resume:hover {
+    color: #FFAD59;
+    transition: all 0.5s ease; }
+  .contact-footer-cs .linked-in:hover {
+    color: #1A84BC;
+    transition: all 0.5s ease; }
+  .contact-footer-cs .dribbble:hover {
+    color: #ea4c89;
+    transition: all 0.5s ease; }
+
+.copy-right {
+  text-align: center;
+  background-color: #f1f1f1; }
+  .copy-right p {
+    font-family: NexaLight;
+    font-weight: normal;
+    font-style: normal;
+    color: #4D4D4D;
+    font-size: 0.8em;
+    padding: 15px 0px 10px 0px; }
+
+.copy-right-white {
+  text-align: center;
+  background-color: #fcfcfc; }
+  .copy-right-white p {
+    font-family: NexaLight;
+    font-weight: normal;
+    font-style: normal;
+    color: #4D4D4D;
+    font-size: 0.8em;
+    padding: 15px 0px 10px 0px; }
+
+.journal-bg {
+  background-color: #f3f3f3;
+  padding: 15% 0px 15% 0px;
+  text-align: center; }
+  .journal-bg .journal-content {
+    text-align: center; }
+    .journal-bg .journal-content .profile {
+      height: 150px;
+      width: auto; }
+    .journal-bg .journal-content .intro-line {
+      color: #FFAD59;
+      font-family: NexaBold;
+      font-weight: normal;
+      font-style: normal;
+      padding-top: 20px;
+      font-size: 1.5em; }
+    .journal-bg .journal-content p {
+      font-family: AvenirLTStd-Light;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.5em;
+      color: #4D4D4D;
+      font-size: 1.1em;
+      text-rendering: optimizeLegibility;
+      padding-top: 15px;
+      text-align: center; }
+    .journal-bg .journal-content .email-link {
+      color: #1A84BC;
+      transition: all 0.5s ease; }
+    .journal-bg .journal-content .email-link:hover {
+      color: #6ec1ea;
+      transition: all 0.5s ease; }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .nav-bg {
+    padding: 40px 0px 30px 0px; }
+    .nav-bg .kc-logo-holder {
+      text-align: center; }
+      .nav-bg .kc-logo-holder ul li .kc-logo {
+        background-image: url("../img/home/kc-logo-scroll.svg");
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px; }
+      .nav-bg .kc-logo-holder ul li .kc-name {
+        height: 50px;
+        width: 224px; }
+
+  .home-label ul {
+    display: inline-block; }
+    .home-label ul h1 {
+      font-family: NexaBold;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 3.5em;
+      text-transform: uppercase;
+      line-height: 1em;
+      color: #4F4F4F;
+      margin-bottom: 5px; }
+    .home-label ul h2 {
+      font-family: NexaLight;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1.3em;
+      text-transform: uppercase;
+      color: #4F4F4F;
+      margin-bottom: 40px; }
+      .home-label ul h2 span {
+        padding: 0px 5px 0px 5px; }
+
+  .venture-bg .row .venture-laptop-home-bg {
+    margin-bottom: 40px;
+    text-align: center; }
+    .venture-bg .row .venture-laptop-home-bg .venture-laptop-home {
+      max-width: 65%; }
+
+  .guitar-bg .row .guitar-ipad-bg {
+    margin-bottom: 40px;
+    text-align: center; }
+    .guitar-bg .row .guitar-ipad-bg .guitar-center-ipad-home {
+      max-width: 65%; }
+
+  .gravity-bg .row .gravity-screen-bg {
+    margin-bottom: 40px;
+    text-align: center; }
+    .gravity-bg .row .gravity-screen-bg .gravity-screen-home {
+      max-width: 60%; }
+
+  .moad-bg .row .moad-cards-bg {
+    margin-bottom: 20px;
+    text-align: center; }
+    .moad-bg .row .moad-cards-bg .moad-cards-home {
+      max-width: 60%; }
+
+  .footer-home {
+    height: inherit; }
+
+  #venture-bg {
+    background-position: bottom; }
+
+  .venture-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    width: 50%; }
+
+  .venture-search-bg {
+    padding-bottom: 39%;
+    margin-bottom: 13%; }
+    .venture-search-bg .venture-laptop {
+      padding-top: 60px;
+      max-width: 75%; }
+
+  .venture-browse-bg {
+    padding-bottom: 43%; }
+    .venture-browse-bg .venture-browse-screens {
+      max-width: 80%; }
+
+  #guitar-center-bg .guitar-center-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 16%; }
+
+  .guitar-ipad-bg-cs {
+    margin-bottom: 4%;
+    padding-bottom: 39%; }
+    .guitar-ipad-bg-cs .guitar-ipad-cs {
+      padding-top: 60px;
+      max-width: 60%; }
+
+  .guitar-specs-bg {
+    padding-bottom: 41%; }
+    .guitar-specs-bg .guitar-screens {
+      max-width: 82%; }
+
+  .guitar-gps-bg {
+    padding-bottom: 41%; }
+    .guitar-gps-bg .guitar-gps {
+      max-height: 70%; }
+
+  .guitar-logo-bg {
+    padding-bottom: 41%; }
+    .guitar-logo-bg .guitar-center-logo {
+      max-height: 70%; }
+
+  #gravity-bg-cs .gravity-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 42%; }
+
+  .gravity-screen-bg-cs {
+    padding-bottom: 25%; }
+    .gravity-screen-bg-cs .gravity-team video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-timeline-bg {
+    padding-bottom: 38%; }
+    .gravity-timeline-bg .gravity-timeline video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-writing-bg {
+    padding-bottom: 38%; }
+    .gravity-writing-bg .gravity-writing video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-pages-bg {
+    padding-bottom: 27%; }
+    .gravity-pages-bg .gravity-pages video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-review-bg {
+    padding-bottom: 38%; }
+    .gravity-review-bg .gravity-review video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-download-bg {
+    padding-bottom: 38%; }
+    .gravity-download-bg .gravity-download video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  #moad-bg-cs {
+    background-position: bottom; }
+    #moad-bg-cs .moad-logo {
+      max-width: 48%;
+      margin-top: -3%; }
+
+  .moad-cards-case-bg {
+    padding-bottom: 45%; }
+    .moad-cards-case-bg .moad-app {
+      max-width: 65%; }
+
+  .moad-poster-bg {
+    margin-bottom: 12%;
+    padding-bottom: 45%; }
+    .moad-poster-bg .moad-poster {
+      padding-top: 20px;
+      max-width: 55%; }
+
+  .moad-app-bg {
+    padding-bottom: 45%; }
+
+  .moad-building-bg {
+    background-position: middle;
+    padding-bottom: 45%; }
+
+  .contact-bg {
+    padding: 8% 0px 8% 0px; } }
+@media screen and (min-width: 64em) {
+  .nav-bg {
+    padding: 55px 0px 60px 0px; }
+    .nav-bg .kc-logo-holder {
+      text-align: left; }
+      .nav-bg .kc-logo-holder ul li {
+        display: inline-block; }
+        .nav-bg .kc-logo-holder ul li .kc-logo {
+          background-image: url("../img/home/kc-logo-scroll.svg");
+          background-repeat: no-repeat;
+          height: 100px;
+          width: 100px; }
+        .nav-bg .kc-logo-holder ul li .kc-name {
+          height: 50px;
+          width: 224px;
+          margin: 0px 0px 24px 17px; }
+    .nav-bg .nav-links-holder {
+      text-align: right; }
+      .nav-bg .nav-links-holder ul {
+        padding: 43px 0px 0px 0px; }
+        .nav-bg .nav-links-holder ul li {
+          display: inline-block;
+          padding: 0px 0px 0px 30px; }
+          .nav-bg .nav-links-holder ul li a {
+            font-size: 1.2em;
+            font-family: NexaLight;
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #4D4D4D; }
+
+  .nav-bg-cs {
+    padding: 14px 0px 10px 0px;
+    text-align: left; }
+    .nav-bg-cs .kc-logo-holder ul li {
+      display: block; }
+      .nav-bg-cs .kc-logo-holder ul li .kc-logo {
+        background-image: url("../img/home/kc-logo-scroll.svg");
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 75px;
+        width: 75px;
+        margin: 0px; }
+    .nav-bg-cs .nav-links-holder {
+      text-align: right; }
+      .nav-bg-cs .nav-links-holder ul {
+        list-style: none; }
+        .nav-bg-cs .nav-links-holder ul li {
+          display: inline-block;
+          padding: 27px 0px 0px 30px; }
+          .nav-bg-cs .nav-links-holder ul li a {
+            font-size: 1.2em;
+            font-family: NexaLight;
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #4D4D4D; }
+
+  .home-section {
+    height: 80vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3; }
+
+  .home-label {
+    text-align: left;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .home-label ul {
+      list-style: none;
+      display: block; }
+      .home-label ul h1 {
+        font-family: NexaBold;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3.4em;
+        text-transform: uppercase;
+        line-height: 1em;
+        color: #4F4F4F; }
+      .home-label ul h2 {
+        font-family: NexaLight;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        color: #4F4F4F;
+        margin-bottom: 40px; }
+        .home-label ul h2 span {
+          padding: 0px 5px 0px 5px; }
+
+  .home-row {
+    height: inherit; }
+
+  .content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+  .venture-bg .row .venture-laptop-home-bg {
+    margin-bottom: 0px;
+    text-align: right; }
+    .venture-bg .row .venture-laptop-home-bg .venture-laptop-home {
+      max-width: 95%; }
+
+  .guitar-bg .row .guitar-ipad-bg {
+    margin-bottom: 0px;
+    text-align: left; }
+    .guitar-bg .row .guitar-ipad-bg .guitar-center-ipad-home {
+      max-width: 90%; }
+
+  .gravity-bg .row .gravity-screen-bg {
+    margin-bottom: 0px;
+    text-align: right; }
+    .gravity-bg .row .gravity-screen-bg .gravity-screen-home {
+      max-width: 95%; }
+
+  .moad-bg .row .moad-cards-bg {
+    margin-bottom: 0px;
+    text-align: left; }
+    .moad-bg .row .moad-cards-bg .moad-cards-home {
+      max-width: 100%; }
+
+  .about-description {
+    padding: 70px 0px 70px 0px;
+    text-align: center; }
+    .about-description p {
+      padding-top: 15px; }
+
+  .description p {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+  #venture-bg {
+    background-position: bottom; }
+
+  .venture-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    width: 40%; }
+
+  .venture-search-bg {
+    padding-bottom: 35%;
+    margin-bottom: 8%; }
+    .venture-search-bg .venture-laptop {
+      padding-top: 60px;
+      max-width: 65%; }
+
+  .venture-browse-bg {
+    padding-bottom: 38%; }
+    .venture-browse-bg .venture-browse-screens {
+      max-width: 71%; }
+
+  .venture-comment-bg {
+    padding-bottom: 36%; }
+    .venture-comment-bg .venture-comment-screen {
+      max-width: 60.8%; }
+
+  #guitar-center-bg .guitar-center-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 13%; }
+
+  .video-holder-bg {
+    background-color: #1f2125; }
+    .video-holder-bg .video-holder {
+      padding: 20px 0px 20px 0px;
+      margin: 0 auto;
+      width: 60%; }
+
+  iframe {
+    width: 100%;
+    height: auto; }
+
+  .guitar-ipad-bg-cs {
+    margin-bottom: 3%;
+    padding-bottom: 32%; }
+    .guitar-ipad-bg-cs .guitar-ipad-cs {
+      padding-top: 70px;
+      max-width: 50%; }
+
+  .guitar-specs-bg {
+    padding-bottom: 38%; }
+    .guitar-specs-bg .guitar-screens {
+      max-width: 75%; }
+
+  .guitar-gps-bg {
+    padding-bottom: 38%; }
+    .guitar-gps-bg .guitar-gps {
+      max-height: 70%; }
+
+  .guitar-logo-bg {
+    padding-bottom: 38%; }
+    .guitar-logo-bg .guitar-center-logo {
+      max-height: 70%; }
+
+  #gravity-bg-cs .gravity-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 32%; }
+
+  .gravity-screen-bg-cs {
+    padding-bottom: 25%; }
+    .gravity-screen-bg-cs .gravity-team video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-timeline-bg {
+    padding-bottom: 38%; }
+    .gravity-timeline-bg .gravity-timeline video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-writing-bg {
+    padding-bottom: 38%; }
+    .gravity-writing-bg .gravity-writing video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-pages-bg {
+    padding-bottom: 27%; }
+    .gravity-pages-bg .gravity-pages video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-review-bg {
+    padding-bottom: 38%; }
+    .gravity-review-bg .gravity-review video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  .gravity-download-bg {
+    padding-bottom: 38%; }
+    .gravity-download-bg .gravity-download video {
+      position: absolute;
+      padding: 20px 0px 20px 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+
+  #moad-bg-cs {
+    background-position: bottom; }
+    #moad-bg-cs .moad-logo {
+      max-width: 40%;
+      margin-top: -3%; }
+
+  .moad-cards-case-bg {
+    padding-bottom: 36%; }
+    .moad-cards-case-bg .moad-app {
+      max-width: 65%; }
+
+  .moad-poster-bg {
+    margin-bottom: 6.5%;
+    padding-bottom: 35%; }
+    .moad-poster-bg .moad-poster {
+      padding-top: 20px;
+      max-width: 40%; }
+
+  .moad-app-bg {
+    padding-bottom: 36%; }
+
+  .moad-building-bg {
+    background-position: middle;
+    padding-bottom: 35%; }
+
+  .contact-bg {
+    padding: 5% 0px 5% 0px; } }

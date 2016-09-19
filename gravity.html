@@ -1,0 +1,234 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Chisaki | New Media Designer</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animsition.css">
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/animsition.min.js"></script>
+
+
+</head>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $(".animsition").animsition({
+            inClass: 'fade-in',
+            outClass: 'fade-out',
+            inDuration: 700,
+            outDuration: 500,
+            linkElement: '.animsition-link',
+            // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+            loading: true,
+            loadingParentElement: 'body', //animsition wrapper element
+            loadingClass: 'animsition-loading',
+            loadingInner: '', 
+            timeout: false,
+            timeoutCountdown: 5000,
+            onLoadEvent: true,
+            browser: [ 'animation-duration', '-webkit-animation-duration'],
+            overlay : false,
+            overlayClass : 'animsition-overlay-slide',
+            overlayParentElement : 'body',
+            transition: function(url){ window.location.href = url; }
+          });
+        });
+    </script>
+
+<body class="animsition">
+
+
+<!--Navigation-->
+
+  <div class="nav-bg-cs">
+
+    <nav class="row">
+
+      <div class="kc-logo-holder small-12 medium-12 large-6 columns">
+        <ul>
+          <li><a href="index.html" class="kc-logo animsition-link"></a></li>
+        </ul>
+      </div>
+
+      <div class="nav-links-holder small-12 medium-12 large-6 columns">
+
+        <ul class="underline">
+
+          <li>
+            <a href="journal.html" class="nav-link">Journal</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="nav-link animsition-link">Contact</a>
+          </li>
+        
+        </ul>
+
+      </div>
+    
+    </nav>
+
+  </div>
+
+<!--Header-->
+
+  <div class="case-study-bg" id="gravity-bg-cs">
+    <img class="gravity-logo" src="./img/gravity/gravity-logo.svg">
+  </div>
+
+  <div class="row">
+    <div class="about-description-link small-10 small-centered large-10 columns">
+      <h2>About The Project</h2>
+      <h3 id="gravity-tags">UX  <span class="slash">/</span>  Identity  <span class="slash">/</span>  Motion</h3>
+      <p>Now a days, teams are becoming more complex due to the different skill assets each person has. As a designer, I started to realize that documenting and developing a project as a team can be difficult. Some of the reasons why are from poor communication, different backgrounds, file management, and difficulty making decisions as a team.  </p>
+      <p>So I decided to make a desktop application to help team members communicate within each other, share progress, and document their process together as a team. Most importantly, I wanted to make this work with a wide variety of job positions. Not just designers and developers, but with writers, project managers, and art directors as well.</p>
+    </div>
+
+    <div class="link-holder">
+        <a class="button-link button--ujarak button--text-thick gravity-button" href="#" target="_blank">
+            View The Process
+        </a>
+        <h4>Sorry! Process PDF is being updated!</h4>
+    </div>
+  </div>
+
+    <div class="gravity-screen-bg-cs">
+        <div class="gravity-team">
+            <video autoplay loop>
+              <source src="./img/gravity/gravity-avatars.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Team focused</h2>
+      <p>As I was thinking about the team aspect of the app. I wanted each project page to focus on users that are relevant with your project. Rather than just showing everyone in your department and have random people on your project page that you don’t interact with during the teamwork process.  I also wanted users to be able to see everyone’s roles in the project on a hover state. Just in case people don’t know who or what each person does on the team.</p>
+    </div>
+  </div>
+
+    <div class="gravity-timeline-bg">
+        <div class="gravity-timeline">
+            <video autoplay loop>
+              <source src="./img/gravity/gravity-timeline.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Version Control Timeline</h2>
+      <p>One of the most important aspects I wanted to create for this project was to make a version control system that was easy and simple to use. Our project files are precious to us and being able to see your projects grow over time is great for project documentation. Users will also be able to go back in time and redownload old versions of their work.  </p>
+      <p>So I decided to create a timeline for each person in the group, as well as a timeline for the whole team with finished assets only. Users can upload to the timeline through a desktop sync folder or by a simple drag and drop.</p>
+    </div>
+  </div>
+
+    <div class="gravity-writing-bg">
+        <div class="gravity-writing">
+            <video autoplay loop>
+              <source src="./img/gravity/gravity-writing.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Version Control For Everyone</h2>
+      <p>Every version control system I found during my research was mostly focused on designers and developers. But there was a couple of positions which I thought would useful to have version control. Writers are a huge part of the content process and I thought they should be able to have version control as well. I also wanted them to have a way to send content to the rest of their team and recieve feedback seamlessly.</p>
+    </div>
+  </div>
+
+    <div class="gravity-pages-bg">
+        <div class="gravity-pages">
+            <video autoplay loop>
+              <source src="./img/gravity/gravity-pages.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Project Customization</h2>
+      <p>Every project you work on is different and unique. So I wanted users to be able to cutomize their project pages. Complementing the look, feel, and giving each project an indentity in the document process. This can help every user identify their projects through color and the cusomizable banners on each project page; so users don’t get confused on what they’re working on.</p>
+    </div>
+  </div>
+
+    <div class="gravity-review-bg">
+        <div class="gravity-review">
+            <video autoplay loop>
+              <source src="./img/gravity/gravity-review.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Team Reviews</h2>
+      <p>Team feedback is important and I wanted it to be simple for every job position to recieve feedback and revise their project. Each user has the choice to send a project to review for their whole team or to individual positions.</p>
+    </div>
+  </div>
+
+    <div class="gravity-download-bg">
+        <div class="gravity-download">
+            <video autoplay loop>
+              <source src="./img/gravity/gravity-download.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="about-description-link small-10 small-centered large-10 columns">
+      <h2>Completed Assets in one place</h2>
+      <p>When reviews are completed and approved by project managers, a check mark will appear on the finished asset on the timeline. This will indicate to other team members and send them a notification that this asset is “finished and approved!” So other team members can go ahead and download that asset for use in the next step of the project.  </p>
+      <p>All finished assets will have their own timeline. Showing when all assets are finished and approved, all in one place for the whole team to download and admire.</p>
+    </div>
+
+    <div class="link-holder">
+        <a class="button-link button--ujarak button--text-thick gravity-button" href="https://invis.io/RM7KJAHPX#/76145029_Home-Screen-Open" target="_blank">
+            View Prototype
+        </a>
+    </div>
+  </div>
+
+    <footer class="case-study-footer expanded row large-collapse">
+        <a href="guitar-center.html" class="medium-6 large-6 columns animsition-link">
+            <h3>Previous Project</h3>
+            <h4>Guitar Center</h4>
+        </a>
+
+        <a href="moad.html" class="medium-6 large-6 columns animsition-link">
+            <h3>Next Project</h3>
+            <h4>Museum of the African Diaspora</h4>
+        </a>
+    </footer>
+
+    <footer class="contact-footer-cs">
+
+      <h3 class="description-tags underline" id="contact-line">
+        <a href="mailto:hello@kevinchisaki.com" class="email-link nav-link email">Email</a> <span class="slash">/</span> <a href="./img/Kevin-Chisaki_Resume_2016.pdf" class="nav-link resume" target="_blank"> Resume </a> <span class="slash">/</span> <a href="https://www.linkedin.com/in/kevin-chisaki-91315359" class="nav-link linked-in" target="_blank"> LINKEDIN </a>  <span class="slash">/</span>  <a href="https://dribbble.com/kevinchisaki" class="nav-link dribbble" target="_blank"> DRIBBBLE </a>
+      </h3>
+
+    </footer>
+
+    <footer class="copy-right-white">
+        <p>&copy; 2016 Kevin Chisaki. All Rights Reserved.</p>
+    </footer>
+
+  </body>
+</html>

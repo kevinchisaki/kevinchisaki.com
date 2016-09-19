@@ -1,0 +1,359 @@
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+	.nav-bg {
+		padding: 40px 0px 30px 0px;
+		.kc-logo-holder {
+			text-align: center;
+			ul {
+
+				li {
+					
+					.kc-logo {
+						background-image: url("../img/home/kc-logo-scroll.svg");
+						background-repeat: no-repeat;
+						height: 100px;
+						width: 100px;
+					}
+
+					.kc-name {
+						height: 50px;
+						width: 224px;
+					}
+				}
+			}
+		}
+	}
+
+	.home-label {
+
+		ul {
+			display: inline-block;
+			h1 {
+				@include nexa-bold();
+				font-size: 3.5em;
+				text-transform: uppercase;
+				line-height: 1em;
+				color: #4F4F4F;
+				margin-bottom: 5px;
+			}
+			h2 {
+				@include nexa-light();
+				font-size: 1.3em;
+				text-transform: uppercase;
+				color: #4F4F4F;
+				margin-bottom: 40px;
+					span {
+						padding: 0px 5px 0px 5px;
+					}
+			}
+		}
+	}
+
+
+	.venture-bg {
+
+		.row {
+
+			.venture-laptop-home-bg {
+				margin-bottom: 40px;
+				text-align: center;
+				.venture-laptop-home {
+					max-width: 65%;
+				}
+			}
+		}
+	}
+
+	.guitar-bg {
+
+		.row {
+			
+			.guitar-ipad-bg {
+				margin-bottom: 40px;
+				text-align: center;
+				.guitar-center-ipad-home {
+					max-width: 65%;
+				}
+			}
+		}
+	}
+
+	.gravity-bg {
+
+		.row {
+
+			.gravity-screen-bg {
+				margin-bottom: 40px;
+				text-align: center;
+				.gravity-screen-home {
+					max-width: 60%;
+				}
+			}
+		}
+	}
+
+	.moad-bg {
+
+		.row {
+
+			.moad-cards-bg {
+				margin-bottom: 20px;
+				text-align: center;
+				.moad-cards-home {
+					max-width: 60%;
+				}
+			}
+		}
+	}
+
+	.footer-home {
+		height: inherit;
+		.email {
+			
+		}
+	}
+
+	// Venture Case Study 
+
+	#venture-bg {
+		background-position: bottom;
+	}
+
+	.venture-logo {
+		@include vertical-align;
+		height: auto;
+		width: 50%;
+	}
+
+	.venture-search-bg {
+		padding-bottom: 39%;
+		margin-bottom: 13%;
+			.venture-laptop {
+				padding-top: 60px;
+				max-width: 75%;
+			}
+	}
+
+	.venture-browse-bg {
+		padding-bottom: 43%;
+			.venture-browse-screens {
+				max-width: 80%;
+			}
+
+	}
+
+	// Guitar Center Case Study 
+
+	#guitar-center-bg {
+
+		.guitar-center-logo {
+			@include vertical-align;
+			height: auto;
+			max-width: 16%;
+		}
+	}
+
+	.guitar-ipad-bg-cs {
+		margin-bottom: 4%;
+		padding-bottom: 39%;
+			.guitar-ipad-cs {
+				padding-top: 60px;
+				max-width: 60%;
+			}
+	}
+
+	.guitar-specs-bg {
+		padding-bottom: 41%;
+			.guitar-screens {
+				max-width: 82%;
+			}
+
+	}
+
+	.guitar-gps-bg {
+		padding-bottom: 41%;
+				.guitar-gps {
+					max-height: 70%;
+			}
+	}
+
+	.guitar-logo-bg {
+		padding-bottom: 41%;
+				.guitar-center-logo {
+					max-height: 70%;
+			}
+	}
+
+	// Gravity Case Study  
+
+	#gravity-bg-cs {
+
+		.gravity-logo {
+			@include vertical-align;
+			height: auto;
+			max-width: 42%;
+		}
+	}
+
+	.gravity-screen-bg-cs {
+		padding-bottom: 25%;
+			.gravity-team {
+
+				video {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0;
+				}
+
+			}
+
+	}
+
+	.gravity-timeline-bg {
+		padding-bottom: 38%;
+
+			.gravity-timeline {
+
+				video {
+					position: absolute;
+					padding: 20px 0px 20px 0px;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0;
+				}
+
+			}
+
+	}
+
+	.gravity-writing-bg {
+		padding-bottom: 38%;
+
+			.gravity-writing {
+
+				video {
+					position: absolute;
+					padding: 20px 0px 20px 0px;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0;
+				}
+
+			}
+
+	}
+
+	.gravity-pages-bg {
+		padding-bottom: 27%;
+
+			.gravity-pages {
+
+				video {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0;
+				}
+
+			}
+
+	}
+
+	.gravity-review-bg {
+		padding-bottom: 38%;
+
+			.gravity-review {
+
+				video {
+					position: absolute;
+					padding: 20px 0px 20px 0px;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0;
+				}
+
+			}
+
+	}
+
+	.gravity-download-bg {
+		padding-bottom: 38%;
+
+			.gravity-download {
+
+				video {
+					position: absolute;
+					padding: 20px 0px 20px 0px;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0;
+				}
+
+			}
+
+	}
+
+	// MOAD Case Study 
+
+	#moad-bg-cs {
+		background-position: bottom;
+		.moad-logo {
+			max-width: 48%;
+			margin-top: -3%;
+		}
+	}
+
+	.moad-cards-case-bg {
+		padding-bottom: 45%;
+			.moad-app {
+			max-width: 65%;
+		}
+
+	}
+
+	.moad-poster-bg {
+		margin-bottom: 12%;
+		padding-bottom: 45%;
+				.moad-poster {
+				padding-top: 20px;
+				max-width: 55%;
+			}
+	}
+
+	.moad-app-bg {
+		padding-bottom: 45%;
+	}
+
+	.moad-building-bg {
+		background-position: middle;
+		padding-bottom: 45%;
+	}
+
+	// Contact 
+
+	.contact-bg {
+		padding: 8% 0px 8% 0px;
+
+	}
+
+
+}

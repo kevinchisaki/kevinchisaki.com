@@ -1,0 +1,203 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Chisaki | New Media Designer</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animsition.css">
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/animsition.min.js"></script>
+
+
+</head>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#guitar-demo").fitVids();
+      });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $(".animsition").animsition({
+            inClass: 'fade-in',
+            outClass: 'fade-out',
+            inDuration: 700,
+            outDuration: 500,
+            linkElement: '.animsition-link',
+            // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+            loading: true,
+            loadingParentElement: 'body', //animsition wrapper element
+            loadingClass: 'animsition-loading',
+            loadingInner: '', 
+            timeout: false,
+            timeoutCountdown: 5000,
+            onLoadEvent: true,
+            browser: [ 'animation-duration', '-webkit-animation-duration'],
+            overlay : false,
+            overlayClass : 'animsition-overlay-slide',
+            overlayParentElement : 'body',
+            transition: function(url){ window.location.href = url; }
+          });
+        });
+    </script>
+
+<body class="animsition">
+
+
+<!--Navigation-->
+
+  <div class="nav-bg-cs">
+
+    <nav class="row">
+
+      <div class="kc-logo-holder small-12 medium-12 large-6 columns">
+        <ul>
+          <li><a href="index.html" class="kc-logo animsition-link"></a></li>
+        </ul>
+      </div>
+
+      <div class="nav-links-holder small-12 medium-12 large-6 columns">
+
+        <ul class="underline">
+
+          <li>
+            <a href="journal.html" class="nav-link">Journal</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="nav-link animsition-link">Contact</a>
+          </li>
+        
+        </ul>
+
+      </div>
+    
+    </nav>
+
+  </div>
+
+<!--Header-->
+
+  <div class="case-study-bg" id="guitar-center-bg">
+    <img class="guitar-center-logo" src="./img/guitar-center/guitar-center-logo-01.svg">
+  </div>
+
+  <div class="row">
+    <div class="about-description-link small-10 small-centered large-10 columns">
+      <h2>About The Project</h2>
+      <h3 id="guitar-center-tags">BRANDING <span class="slash">/</span> UX <span class="slash">/</span> IDENTITY <span class="slash">/</span> MOTION</h3>
+      <p>For this project, I wanted to do a little more than just rebrand Guitar Center. I wanted to improve the shopping experience for in-store customers and the way they navigate around the store, as well as improve the bandwidth for Guitar Center associates so they can be available for questions and checkout procedures.  </p>
+      <p>As a new musician, Guitar Center can be very overwhelming seeing all of the different types of products that the store has to offer and finding a starting point can be difficult.  </p>
+      <p>I was a new musician myself, and for me it was awkward to talk to a sale associate as a newbie. Some of the sales associates were also busy talking with other customers as well so I found myself on my own searching for my first guitar. What if there was a digital display that recommends products and helps customers find products on an in-door map around the store?</p>
+    </div>
+
+    <div class="link-holder">
+        <a class="button-link button--ujarak button--text-thick guitar-button" href="../case-study/Guitar-Center_Case-Study_Kevin-Chisaki_060616.pdf" target="_blank">
+            View The Process
+        </a>
+        <h4>22.1MB PDF DOWNLOAD</h4>
+    </div>
+  </div>
+
+  <div class="video-holder-bg">
+      <div class="video-holder">    
+          <div id="guitar-demo" class="embed-holder">
+              <iframe src="https://player.vimeo.com/video/147952560" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>In-Store Kiosk Demo</h2>
+      <p>This is a motion study and a demo for users who are using the kiosk for the first time. The demo goes through all of the key features of the kiosk from start to finish.</p>
+    </div>
+  </div>
+
+  <div class="guitar-ipad-bg-cs">
+    <img class="guitar-ipad-cs" src="./img/guitar-center/guitar-center-ipad.png">
+  </div>
+
+  <div class="row">
+    <div class="about-description-link small-10 small-centered large-10 columns">
+      <h2>Search by skill level</h2>
+      <p>I thought it would be an awesome feature for users to search for an instrument by skill level. This can help all types of customers find a new instrument from experienced to newbies. The recommendations can be compiled by proffesionals and Guitar Center associates, categorized into the three categories: Beginner, Intermediate, and Advanced. </p>
+    </div>
+
+    <div class="link-holder">
+        <a class="button-link button--ujarak button--text-thick guitar-button" href="https://invis.io/VA7LD04CG#/165351966_Home-Screen" target="_blank">
+            View Prototype
+        </a>
+    </div>
+  </div>
+
+  <div class="guitar-specs-bg">
+    <img class="guitar-screens" src="./img/guitar-center/guitar-center-screens.png">
+  </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Specifications &amp; Artists</h2>
+      <p>Specifications are an important aspect to every person looking for a new instrument.  What material is it made of? How big is it? Etc. Along with that, I thought it would be a cool feature to see your instrument in action. See your instrument in a music video being played by other famous artists that use the same instrument.</p>
+    </div>
+  </div>
+
+  <div class="guitar-gps-bg">
+    <img class="guitar-gps" src="./img/guitar-center/guitar-center-gps.png">
+  </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>In-Store Navigation</h2>
+      <p>Specifications are an important aspect to every person looking for a new instrument.  What material is it made of? How tall is it? Etc. Along with that, I thought it would be a cool feature to see your instrument in action. See that instrument in a music video being played by other famous artists that use the same instrument.</p>
+    </div>
+  </div>
+
+  <div class="guitar-logo-bg">
+    <img class="guitar-center-logo" src="./img/guitar-center/guitar-center-logo-01.svg">
+  </div>
+
+  <div class="row">
+    <div class="about-description small-10 small-centered large-10 columns">
+      <h2>Behind The Mark</h2>
+      <p>Guitar Center is not just about guitars anymore. Guitar Center is now the world’s largest retailer of guitars, amplifiers, drums, keyboards, recording equipment, live sound,  DJ and lighting equipment throughout the US.  While thinking about what kind of store Guitar Center is today, I wanted to re-imagine the logo focused on “sound” but keep the guitar aspect of the name.</p>
+    </div>
+  </div>
+
+    <footer class="case-study-footer expanded row large-collapse">
+        <a href="venture.html" class="medium-6 large-6 columns animsition-link">
+            <h3>Previous Project</h3>
+            <h4>Venture</h4>
+        </a>
+
+        <a href="gravity.html" class="medium-6 large-6 columns animsition-link">
+            <h3>Next Project</h3>
+            <h4>Gravity</h4>
+        </a>
+    </footer>
+
+    <footer class="contact-footer-cs">
+
+      <h3 class="description-tags underline" id="contact-line">
+        <a href="mailto:hello@kevinchisaki.com" class="email-link nav-link email">Email</a> <span class="slash">/</span> <a href="./img/Kevin-Chisaki_Resume_2016.pdf" class="nav-link resume" target="_blank"> Resume </a> <span class="slash">/</span> <a href="https://www.linkedin.com/in/kevin-chisaki-91315359" class="nav-link linked-in" target="_blank"> LINKEDIN </a>  <span class="slash">/</span>  <a href="https://dribbble.com/kevinchisaki" class="nav-link dribbble" target="_blank"> DRIBBBLE </a>
+      </h3>
+
+    </footer>
+
+    <footer class="copy-right-white">
+        <p>&copy; 2016 Kevin Chisaki. All Rights Reserved.</p>
+    </footer>
+
+  </body>
+</html>

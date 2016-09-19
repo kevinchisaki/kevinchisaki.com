@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Chisaki | New Media Designer</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animsition.css">
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/animsition.min.js"></script>
+
+
+</head>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $(".animsition").animsition({
+            inClass: 'fade-in',
+            outClass: 'fade-out',
+            inDuration: 700,
+            outDuration: 500,
+            linkElement: '.animsition-link',
+            // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+            loading: true,
+            loadingParentElement: 'body', //animsition wrapper element
+            loadingClass: 'animsition-loading',
+            loadingInner: '', 
+            timeout: false,
+            timeoutCountdown: 5000,
+            onLoadEvent: true,
+            browser: [ 'animation-duration', '-webkit-animation-duration'],
+            overlay : false,
+            overlayClass : 'animsition-overlay-slide',
+            overlayParentElement : 'body',
+            transition: function(url){ window.location.href = url; }
+          });
+        });
+    </script>
+
+<body style="background-color: #f3f3f3;" class="animsition">
+
+
+<!--Navigation-->
+
+  <div class="nav-bg-cs">
+
+    <nav class="row">
+
+      <div class="kc-logo-holder small-12 medium-12 large-6 columns">
+        <ul>
+          <li><a href="index.html" class="kc-logo"></a></li>
+        </ul>
+      </div>
+
+      <div class="nav-links-holder small-12 medium-12 large-6 columns">
+
+        <ul class="underline">
+
+          <li>
+            <a href="journal.html" class="nav-link">Journal</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="nav-link selected">Contact</a>
+          </li>
+        
+        </ul>
+
+      </div>
+    
+    </nav>
+
+  </div>
+
+<!--Header-->
+
+<div class="contact-bg">
+
+    <div class="contact-content row">
+
+        <div class="small-10 small-centered medium-8 medium-centered large-7 large-centered columns">
+            <img class="profile" src="./img/home/portrait_circle.png">
+
+            <h3 class="intro-line">Hi, my name is Kevin, but you can call me KC.</h3>
+
+            <p>
+                I’m a New Media Designer based in San Francisco, CA. I love solving problems in creative ways and developing unforgettable experiences for users through <br> design and technology. My responsibilities are often UI/UX,<br>Web Design, Visual Design and Product Design.
+            </p>
+            <p>
+                From projects with friends to large corporate companies, I always take the time and effort to design every project with meaning and purpose throughout my design process. Every project I work on starts with pen, paper, research, and <br> prototyping before creating any final deliverables on screen.
+            </p>
+            <p>
+                When I’m not designing, you’ll probably find me reading design blogs, <br> playing video games with my friends, rock climbing, or playing guitar.
+            </p>
+            <p>
+                Interested in working with me? Shoot me an email at <a href="mailto:hello@kevinchisaki.com" class="email-link">hello@kevinchisaki.com</a> <br> I’ll be happy to work with you. c:
+            </p>
+
+            <h3 class="description-tags underline" id="contact-line">
+                <a href="./img/Kevin-Chisaki_Resume_2016.pdf" class="nav-link resume" target="_blank"> Resume </a> <span class="slash">/</span> <a href="https://www.linkedin.com/in/kevin-chisaki-91315359" class="nav-link linked-in" target="_blank"> LINKEDIN </a>  <span class="slash">/</span>  <a href="https://dribbble.com/kevinchisaki" class="nav-link dribbble" target="_blank"> DRIBBBLE </a>
+            </h3>
+        </div>
+
+    </div>
+    
+</div>
+
+  </body>
+</html>
+
+
+
+
+

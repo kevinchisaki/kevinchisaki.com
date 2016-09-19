@@ -1,0 +1,1240 @@
+// Mobile
+
+	body {
+		background-color: #fcfcfc;
+		color: $default;
+	}
+
+	a {
+		color: $default;
+	}
+
+// Button Style Colors
+
+.venture-button {
+	color: $venture-cyan;
+}
+
+.venture-button::before {
+	background: $venture-cyan;
+}
+
+.venture-button:hover {
+	border-color: $venture-cyan;
+}
+
+.guitar-button {
+	color: $guitar-center-blue;
+}
+
+.guitar-button::before {
+	background: $guitar-center-blue;
+}
+
+.guitar-button:hover {
+	border-color: $guitar-center-blue;
+}
+
+.gravity-button {
+	color: $gravity-pink;
+}
+
+.gravity-button::before {
+	background: $gravity-pink;
+}
+
+.gravity-button:hover {
+	border-color: $gravity-pink;
+}
+
+.moad-button {
+	color: $moad-green;
+}
+
+.moad-button::before {
+	background: $moad-green;
+}
+
+.moad-button:hover {
+	border-color: $moad-green;
+}
+	
+// Link Styles 
+
+	.nav-link {
+		@include nexa-light;
+		position: relative;
+		display: inline-block;
+		outline: none;
+		color: $default;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 400;
+	}
+
+	.underline a {
+		padding: 1px 0;
+	}
+
+	.underline a::after {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background: rgba(0,0,0,0.1);
+		content: '';
+		opacity: 0;
+		-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+		-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+		transition: opacity 0.3s, transform 0.3s;
+		-webkit-transform: translateY(3px);
+		-moz-transform: translateY(3px);
+		transform: translateY(3px);
+	}
+
+	.underline a:hover::after,
+	.underline a:focus::after {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+
+	.home-link {
+		@include nexa-bold;
+		position: relative;
+		display: inline-block;
+		outline: none;
+		color: $default;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 1.2em;
+	}
+
+	.line-flex a {
+		color: $default;
+		padding: 0px;
+	}
+
+	.line-flex a::after {
+		position: absolute;
+		top: 100%;
+		left: 38%;
+		width: 20%;
+		height: 3px;
+		content: '';
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+	.line-flex a:hover::after,
+	.line-flex a:focus::after {
+		left: 0;
+		width: 100%;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+// Button Link
+
+	.link-holder {
+		text-align: center;
+		padding: 20px 0px 50px 0px;
+		h4 {
+			@include nexa-light;
+			font-size: 0.9em;
+			color: #a5a5a5;
+		}
+	}
+
+	.button-detail {
+		@include nexa-light;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		color: #d1d1d1;
+	}
+
+	.button-link {
+		@include nexa-bold;
+		text-decoration: none;
+		text-transform: uppercase;
+		min-width: 150px;
+		max-width: 250px;
+		display: inline-block;
+		margin: 1em;
+		padding: 1.5em 2em 1em 2em;
+		border: 3px solid;
+		background: none;
+		vertical-align: middle;
+		position: relative;
+		z-index: 1;
+	}
+
+	.button--ujarak {
+		-webkit-transition: border-color 0.4s, color 0.4s;
+		transition: border-color 0.4s, color 0.4s;
+	}
+	.button--ujarak::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0;
+		-webkit-transform: scale3d(0.7, 1, 1);
+		transform: scale3d(0.7, 1, 1);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+		transition: transform 0.4s, opacity 0.4s;
+		-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+		transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	}
+	.button--ujarak.button--round-s::before {
+		border-radius: 2px;
+	}
+	.button--ujarak.button--inverted::before {
+		background: #7986CB;
+	}
+	.button--ujarak,
+	.button--ujarak::before {
+		-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+		transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	}
+	.button--ujarak:hover {
+		color: #fff;
+	}
+	.button--ujarak.button--inverted:hover {
+		color: #37474F;
+		border-color: #fff;
+	}
+	.button--ujarak:hover::before {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+// Home Link Colors
+
+.home-venture::after {
+	background-color: $venture-cyan;
+}
+
+.home-guitar::after {
+	background-color: $guitar-center-blue;
+}
+
+.home-gravity::after {
+	background-color: $gravity-pink;
+}
+
+.home-moad::after {
+	background-color: $moad-green;
+}
+
+// Navigation	
+
+	.nav-bg {
+		background-color: #fff;
+		padding: 40px 0px 30px 0px;
+		text-align: center;
+		z-index: 99;
+		.kc-logo-holder {
+
+			ul {
+
+				li {
+					display: block;
+					.kc-logo {
+						background-image: url("../img/home/kc-logo-scroll.svg");
+						background-repeat: no-repeat;
+						display: inline-block;
+						height: 90px;
+						width: 90px;
+					}
+
+					.kc-name {
+						display: inline-block;
+						height: 50px;
+						width: 224px;
+						margin: 20px 0px 20px 0px;
+					}
+				}
+			}
+		}
+
+		.nav-links-holder {
+
+			ul {
+				list-style: none;
+				li {
+					display: inline-block;
+					padding: 0px 10px 0px 10px;
+					a {
+						font-size: 1.2em;
+						@include nexa-light;
+						text-transform: uppercase;
+						color: $default;
+					}
+				}
+			}
+
+		}
+	}
+
+// Navigation Case Study
+
+	.nav-bg-cs {
+		padding: 40px 0px 30px 0px;
+		text-align: center;
+		z-index: 98;
+		background-color: #fff;
+		.kc-logo-holder {
+
+			ul {
+
+				li {
+					display: block;
+					.kc-logo {
+						background-image: url("../img/home/kc-logo-scroll.svg");
+						background-repeat: no-repeat;
+						display: inline-block;
+						height: 75px;
+						width: 75px;
+						margin-bottom: 30px;
+					}
+				}
+			}
+		}
+
+		.nav-links-holder {
+
+			ul {
+				list-style: none;
+				li {
+					display: inline-block;
+					padding: 0px 10px 0px 10px;
+					a {
+						font-size: 1.2em;
+						@include nexa-light;
+						text-transform: uppercase;
+						color: $default;
+					}
+					.selected {
+						color: $kc-orange;
+					}
+				}
+			}
+
+		}
+	}
+
+// Home Page
+
+.home-section {
+	height: 100vh;
+}
+
+.home-label {
+	text-align: center;
+	ul {
+		list-style: none;
+		display: inline-block;
+		h1 {
+			@include nexa-bold();
+			font-size: 2.5em;
+			text-transform: uppercase;
+			line-height: 1em;
+			color: #4F4F4F;
+			margin-bottom: 5px;
+		}
+		h2 {
+			@include nexa-light();
+			font-size: 1.1em;
+			text-transform: uppercase;
+			color: #4F4F4F;
+			margin-bottom: 40px;
+				span {
+					padding: 0px 5px 0px 5px;
+				}
+		}
+	}
+}
+
+.venture-bg {
+	background: url(../img/home/venture-bg-bw.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 1;
+	.gradient {
+		background: url(../img/home/gradient.png);
+		background-repeat: repeat-x;
+		position: absolute;
+		height: 165px;
+		width: 100%;
+	}
+	.row {
+		@include vertical-align;
+		.venture-laptop-home-bg {
+			margin-bottom: 40px;
+			text-align: center;
+			.venture-laptop-home {
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+.guitar-bg {
+	background: url(../img/home/guitar-center-bg-bw.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 2;
+	.row {
+		@include vertical-align;
+		.guitar-ipad-bg {
+			margin-bottom: 40px;
+			text-align: center;
+			.guitar-center-ipad-home {
+				max-width: 90%;
+			}
+		}
+	}
+}
+
+.gravity-bg {
+	background: url(../img/home/gravity-bg.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	background-color: #f3f3f3;
+	position: relative;
+	z-index: 3;
+	.row {
+		@include vertical-align;
+		.gravity-screen-bg {
+			margin-bottom: 40px;
+			text-align: center;
+			.gravity-screen-home {
+				max-width: 85%;
+			}
+		}
+	}
+}
+
+.moad-bg {
+	background: url(../img/home/moad-cover-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top left;
+	position: relative;
+	z-index: 4;
+	.row {
+		@include vertical-align;
+		.moad-cards-bg {
+			margin-bottom: 40px;
+			text-align: center;
+			.moad-cards-home {
+				max-width: 90%;
+			}
+		}
+	}
+}
+
+
+// Footer Home
+
+.footer-home {
+	height: inherit;
+	text-align: center;
+	padding: 50px 0px 40px 0px;
+	.email {
+		font-size: 1.1em;
+		@include nexa-light;
+		text-decoration: none;
+		color: $default;
+	}
+}
+
+// Case Study Styles
+
+.case-study-bg {
+	height: 88vh;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.about-description {
+	padding: 50px 0px 50px 0px;
+	text-align: center;
+		h2 {
+			@include nexa-bold;
+			text-transform: uppercase;
+			font-size: $description-title;
+			color: $default !important;
+		}
+		h3 {
+			@include nexa-light;
+			text-transform: uppercase;
+			font-size: $description-tags;
+		}
+		p {
+			@include avenir-light;
+			text-align: left;
+			font-size: $description;
+			text-rendering: optimizeLegibility;
+			padding-top: 15px;
+		}
+}
+
+.about-description-link {
+	padding: 50px 0px 10px 0px;
+	text-align: center;
+		h2 {
+			@include nexa-bold;
+			text-transform: uppercase;
+			font-size: $description-title;
+			color: $default !important;
+		}
+		h3 {
+			@include nexa-light;
+			text-transform: uppercase;
+			font-size: $description-tags;
+		}
+		p {
+			@include avenir-light;
+			text-align: left;
+			font-size: $description;
+			text-rendering: optimizeLegibility;
+			padding-top: 15px;
+		}
+}
+
+
+.description {
+		
+		h2 {
+			text-align: center;
+			@include nexa-bold;
+			text-transform: uppercase;
+			font-size: $description-title;
+			color: $default !important;
+		}
+		p {
+			@include avenir-light;
+			text-align: left;
+			font-size: $description;
+			text-rendering: optimizeLegibility;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+}
+
+// Venture Case Study 
+
+#venture-bg {
+	background: url(../img/venture/venture-cover-01.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;.about-description {
+	padding: 70px 0px 70px 0px;
+	text-align: center;
+		h2 {
+			@include nexa-bold;
+			text-transform: uppercase;
+			font-size: $description-title;
+			color: $default !important;
+		}
+		h3 {
+			@include nexa-light;
+			text-transform: uppercase;
+			font-size: $description-tags;
+		}
+		p {
+			@include avenir-light;
+			text-align: left;
+			font-size: $description;
+			text-rendering: optimizeLegibility;
+			padding-top: 15px;
+		}
+}
+
+.description {
+		
+		h2 {
+			text-align: center;
+			@include nexa-bold;
+			text-transform: uppercase;
+			font-size: $description-title;
+			color: $default !important;
+		}
+		p {
+			@include avenir-light;
+			text-align: left;
+			font-size: $description;
+			text-rendering: optimizeLegibility;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+}
+}
+
+.venture-logo {
+	@include vertical-align;
+	height: auto;
+	max-width: 80%;
+}
+
+#venture-tags {
+	color: $venture-cyan;
+}
+
+.venture-search-bg {
+	background: url(../img/venture/venture-cover-02.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	padding-bottom: 54%;
+	margin-bottom: 18%;
+	position: relative;
+		.venture-laptop {
+			position: absolute;
+			padding-top: 50px;
+			max-width: 90%;
+			height: auto;
+		    right: 0;
+		    left: 0;
+		    margin: auto;
+		}
+}
+
+.venture-browse-bg {
+	background: url(../img/venture/venture-cover-03.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	padding-bottom: 59%;
+	position: relative;
+		.venture-browse-screens {
+			position: absolute;
+			max-width: 98%;
+			bottom: 0px;
+			right: 0;
+		    left: 0;
+			margin: auto;
+		}
+
+}
+
+.venture-comment-bg {
+	background: url(../img/venture/venture-comment-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 59%;
+	position: relative;
+			.venture-comment-screen {
+			position: absolute;
+			max-width: 100%;
+			right: 0;
+		    left: 0;
+			margin: auto;
+			bottom: 0px;
+
+		}
+}
+
+// Guitar Center Case Study
+
+#guitar-center-bg {
+	background: url(../img/guitar-center/guitar-center-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	.guitar-center-logo {
+		@include vertical-align;
+		height: auto;
+		max-width: 33%;
+	}
+}
+
+#guitar-center-tags {
+	color: $guitar-center-blue;
+}
+
+.video-holder-bg {
+	background-color: #1f2125;
+	.video-holder {
+		padding: 20px 0px 20px 0px;
+		margin: 0 auto;
+		width: 80%;
+		.embed-holder{
+
+		}
+	}
+}
+
+iframe {
+	width: 100%;
+	height: auto;
+}
+
+.guitar-ipad-bg-cs {
+	background: url(../img/guitar-center/guitar-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 5%;
+	padding-bottom: 60%;
+	position: relative;
+		.guitar-ipad-cs {
+			position: absolute;
+			padding-top: 52px;
+			max-width: 88%;
+			height: auto;
+		    right: 0;
+		    left: 0;
+		    margin: auto;
+		}
+}
+
+.guitar-specs-bg {
+	background: url(../img/guitar-center/guitar-screen-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 55%;
+	position: relative;
+		.guitar-screens {
+			position: absolute;
+			max-width: 98%;
+			bottom: 0px;
+			right: 0;
+		    left: 0;
+			margin: auto;
+		}
+
+}
+
+.guitar-gps-bg {
+	background: url(../img/guitar-center/guitar-gps-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	padding-bottom: 58%;
+	position: relative;
+			.guitar-gps {
+				@include vertical-align;
+				position: absolute;
+				max-height: 65%;
+				left: 0;
+				right: 0;
+				margin: auto;
+		}
+}
+
+.guitar-logo-bg {
+	background: url(../img/guitar-center/guitar-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 58%;
+	position: relative;
+			.guitar-center-logo {
+				@include vertical-align;
+				position: absolute;
+				max-height: 70%;
+				left: 0;
+				right: 0;
+				margin: auto;
+		}
+}
+
+// Gravity Case Study 
+
+#gravity-bg-cs {
+	background: url(../img/gravity/gravity-cover.svg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: #F8F8F8;
+	.gravity-logo {
+		@include vertical-align;
+		height: auto;
+		max-width: 78%;
+	}
+}
+
+#gravity-tags {
+	color: $gravity-pink;
+}
+
+.gravity-screen-bg-cs {
+	padding-bottom: 50%;
+	position: relative;
+	background-color: #303030;
+	display: block;
+		.gravity-team {
+
+			video {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 150%;
+				height: 100%;
+				border: 0;
+			}
+
+		}
+
+}
+
+.gravity-timeline-bg {
+	padding-bottom: 70%;
+	position: relative;
+	background-color: #303030;
+	display: block;
+		.gravity-timeline {
+
+			video {
+				position: absolute;
+				padding: 20px 0px 20px 0px;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+
+		}
+
+}
+
+.gravity-writing-bg {
+	padding-bottom: 70%;
+	position: relative;
+	background-color: #303030;
+	display: block;
+		.gravity-writing {
+
+			video {
+				position: absolute;
+				padding: 20px 0px 20px 0px;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+
+		}
+
+}
+
+.gravity-pages-bg {
+	padding-bottom: 50%;
+	position: relative;
+	background-color: #303030;
+	display: block;
+		.gravity-pages {
+
+			video {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 150%;
+				height: 100%;
+				border: 0;
+			}
+
+		}
+
+}
+
+.gravity-review-bg {
+	padding-bottom: 70%;
+	position: relative;
+	background-color: #303030;
+	display: block;
+		.gravity-review {
+
+			video {
+				position: absolute;
+				padding: 20px 0px 20px 0px;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+
+		}
+
+}
+
+.gravity-download-bg {
+	padding-bottom: 70%;
+	position: relative;
+	background-color: #303030;
+	display: block;
+		.gravity-download {
+
+			video {
+				position: absolute;
+				padding: 20px 0px 20px 0px;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+
+		}
+
+}
+
+
+// MOAD Case Study
+
+#moad-tags {
+	color: $moad-green;
+}
+
+#moad-bg-cs {
+	background: url(../img/moad/moad-cover-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom right;
+	.moad-logo {
+		@include vertical-align;
+		height: auto;
+		max-width: 70%;
+		margin-top: -3%;
+	}
+}
+
+.moad-cards-case-bg {
+	background: url(../img/moad/moad-cards.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	background-color: #ecebeb;
+	padding-bottom: 59%;
+	position: relative;
+		.moad-app {
+		position: absolute;
+		max-width: 65%;
+		right: 0;
+		left: 0;
+		margin: auto;
+		bottom: 0px;
+
+	}
+
+}
+
+.moad-poster-bg {
+	background: url(../img/moad/city-texture.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 15%;
+	padding-bottom: 79%;
+	position: relative;
+			.moad-poster {
+			position: absolute;
+			padding-top: 28px;
+			max-width: 90%;
+			height: auto;
+		    right: 0;
+		    left: 0;
+		    margin: auto;
+		}
+}
+
+.moad-app-bg {
+	background: url(../img/moad/moad-app.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 59%;
+	position: relative;
+
+}
+
+.moad-building-bg {
+	background: url(../img/moad/museumfront.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 59%;
+	position: relative;
+}
+
+// Case Study Footer
+
+.case-study-footer {
+	background-color: #f7f7f7;
+	a {
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		padding: 35px 0px 25px 0px;
+		transition: all 0.5s ease;
+	&:hover {
+		background-color: #5b5b5b;
+		transition: all 0.5s ease;
+		h3 {
+			color: #fff;
+			transition: all 0.5s ease;
+		}
+		h4 {
+			color: $kc-orange;
+			transition: all 0.5s ease;
+		}
+	}
+		h3 {
+			@include nexa-bold;
+			color: $default;
+			text-transform: uppercase;
+		}
+		h4 {
+			@include nexa-light;
+			color: $kc-orange;
+			text-transform: uppercase;
+		}
+	}
+
+}
+
+// Contact Page 
+
+.slash {
+	color: #aaa;
+	padding: 0px 5px 0px 5px;
+}
+
+.contact-page {
+	
+}
+
+.contact-bg {
+	background-color: #f3f3f3;
+	padding: 15% 0px 15% 0px;
+	text-align: center;
+	.contact-content {
+	text-align: center;	
+			.profile {
+				height: 150px;
+				width: auto;
+			}
+			.intro-line {
+				color: $kc-orange;
+				@include nexa-bold;
+				padding-top: 20px;
+				font-size: 1.5em;
+			}
+			p {
+				@include avenir-light();
+				color: $default;
+				font-size: $contact-description;
+				text-rendering: optimizeLegibility;
+				padding-top: 15px;
+				text-align: center;
+			}
+			.email-link {
+				color: #1A84BC;
+				transition: all 0.5s ease;
+			}
+			.email-link:hover {
+				color: #6ec1ea;
+				transition: all 0.5s ease;
+			}
+			#contact-line {
+				font-size: 1em;
+				margin-top: 40px;
+				color: #aaa;
+			}
+			.resume:hover {
+				color: $kc-orange;
+				transition: all 0.5s ease;
+			}
+			.linked-in:hover {
+				color: #1A84BC;
+				transition: all 0.5s ease;
+			}
+			.dribbble:hover {
+				color: #ea4c89;
+				transition: all 0.5s ease;
+			}
+	}
+}
+
+// Contact Footer
+
+.contact-footer {
+	text-align: center;
+	background-color: #fcfcfc;
+	padding: 50px 0px 40px 0px;
+			.email-link:hover {
+				color: $kc-orange;
+				transition: all 0.5s ease;
+			}
+			#contact-line {
+				font-size: 1em;
+				color: #aaa;
+			}
+			.resume:hover {
+				color: $kc-orange;
+				transition: all 0.5s ease;
+			}
+			.linked-in:hover {
+				color: #1A84BC;
+				transition: all 0.5s ease;
+			}
+			.dribbble:hover {
+				color: #ea4c89;
+				transition: all 0.5s ease;
+			}
+}
+
+.contact-footer-cs {
+	text-align: center;
+	background-color: #fcfcfc;
+	padding: 40px 0px 15px 0px;
+			.email-link:hover {
+				color: $kc-orange;
+				transition: all 0.5s ease;
+			}
+			#contact-line {
+				font-size: 1em;
+				color: #aaa;
+			}
+			.resume:hover {
+				color: $kc-orange;
+				transition: all 0.5s ease;
+			}
+			.linked-in:hover {
+				color: #1A84BC;
+				transition: all 0.5s ease;
+			}
+			.dribbble:hover {
+				color: #ea4c89;
+				transition: all 0.5s ease;
+			}
+}
+
+.copy-right {
+	text-align: center;
+	background-color: #f1f1f1;
+	p {
+		@include nexa-light;
+		color: $default;
+		font-size: 0.8em;
+		padding: 15px 0px 10px 0px;
+	}
+}
+
+.copy-right-white {
+	text-align: center;
+	background-color: #fcfcfc;
+	p {
+		@include nexa-light;
+		color: $default;
+		font-size: 0.8em;
+		padding: 15px 0px 10px 0px;
+	}
+}
+
+
+// Journal 
+
+.journal-bg {
+	background-color: #f3f3f3;
+	padding: 15% 0px 15% 0px;
+	text-align: center;
+	.journal-content {
+	text-align: center;	
+			.profile {
+				height: 150px;
+				width: auto;
+			}
+			.intro-line {
+				color: $kc-orange;
+				@include nexa-bold;
+				padding-top: 20px;
+				font-size: 1.5em;
+			}
+			p {
+				@include avenir-light();
+				color: $default;
+				font-size: $contact-description;
+				text-rendering: optimizeLegibility;
+				padding-top: 15px;
+				text-align: center;
+			}
+			.email-link {
+				color: #1A84BC;
+				transition: all 0.5s ease;
+			}
+			.email-link:hover {
+				color: #6ec1ea;
+				transition: all 0.5s ease;
+			}
+	}
+}
+

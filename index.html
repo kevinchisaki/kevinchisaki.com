@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design by Kevin Chisaki</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animsition.css">
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/animsition.min.js"></script>
+
+</head>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $(".animsition").animsition({
+            inClass: 'fade-in',
+            outClass: 'fade-out',
+            inDuration: 700,
+            outDuration: 500,
+            linkElement: '.animsition-link',
+            // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+            loading: true,
+            loadingParentElement: 'body', //animsition wrapper element
+            loadingClass: 'animsition-loading',
+            loadingInner: '', 
+            timeout: false,
+            timeoutCountdown: 5000,
+            onLoadEvent: true,
+            browser: [ 'animation-duration', '-webkit-animation-duration'],
+            overlay : false,
+            overlayClass : 'animsition-overlay-slide',
+            overlayParentElement : 'body',
+            transition: function(url){ window.location.href = url; }
+          });
+        });
+    </script>
+
+<body>
+
+<div class="container animsition">
+<!--Navigation-->
+  <div class="nav-bg">
+
+    <nav class="row">
+
+      <div class="kc-logo-holder small-12 medium-12 large-6 columns">
+        <ul>
+          <li><a href="index.html" class="kc-logo"></a></li>
+          <li><img class="kc-name" src="./img/home/kc-logo-name-2.svg"></li>
+        </ul>
+      </div>
+
+      <div class="nav-links-holder small-12 medium-12 large-6 columns">
+
+        <ul class="underline">
+
+          <li>
+            <a href="journal.html" class="nav-link">Journal</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="nav-link animsition-link">Contact</a>
+          </li>
+        
+        </ul>
+
+      </div>
+    
+    </nav>
+
+  </div>
+
+<!--Venture Home-->
+  <div class="venture-bg home-section">
+
+    <div class="gradient"></div>
+
+    <div class="row home-row">
+
+      <div class="venture-laptop-home-bg content small-12 medium-12 large-7 large-push-5 columns">
+        <img class="venture-laptop-home" src="./img/venture/venture-macbook-4.png">
+      </div>
+
+      <div class="home-label content small-12 medium-12 large-5 large-pull-7 columns">
+          <ul class="line-flex">
+            <li>
+              <h1>Venture</h1>
+            </li>
+            <li>
+              <h2>Web <span>/</span> Mobile <span>/</span> UX <span>/</span> IDENTITY</h2>
+            </li>
+            <li>
+              <a class="home-link home-venture animsition-link" href="venture.html">view case study</a>
+            </li>
+          </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+<!--Guitar Center Home-->
+  <div class="guitar-bg home-section">
+
+    <div class="row home-row">
+
+      <div class="guitar-ipad-bg content small-12 medium-12 large-7 columns">
+        <img class="guitar-center-ipad-home home-img" src="./img/home/guitar-center-ipad-2.png">
+      </div>
+
+      <div class="home-label content small-12 medium-12 large-5 columns">
+        <ul class="line-flex">
+          <li>
+            <h1>Guitar Center</h1>
+          </li>
+          <li>
+            <h2>BRANDING <span>/</span> UX <span>/</span> Identity <span>/</span> Motion</h2>
+          </li>
+          <li>
+            <a class="home-link home-guitar animsition-link" href="guitar-center.html">view case study</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Gravity Home-->
+    <div class="gravity-bg home-section">
+
+    <div class="row home-row">
+
+      <div class="gravity-screen-bg content small-12 medium-12 large-7 large-push-5 columns">
+        <img class="gravity-screen-home" src="./img/home/gravity-mock.png">
+      </div>
+
+      <div class="home-label content small-12 medium-12 large-5 large-pull-7 columns">
+        <ul class="line-flex">
+          <li>
+            <h1>Gravity</h1>
+          </li>
+          <li>
+            <h2>UX <span>/</span> Identity <span>/</span> Motion</h2>
+          </li>
+          <li>
+            <a class="home-link home-gravity animsition-link" href="gravity.html">view case study</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Moad Home-->
+    <div class="moad-bg home-section">
+
+    <div class="row home-row">
+
+      <div class="moad-cards-bg content small-12 medium-12 large-6 columns">
+        <img class="moad-cards-home" src="./img/home/moad-cards-3.png">
+      </div>
+
+      <div class="home-label content small-12 medium-12 medium-centered large-6 columns">
+        <ul class="line-flex">
+          <li>
+            <h1>Museum of the African Diaspora</h1>
+          </li>
+          <li>
+            <h2>Campaign <span>/</span> Identity  <span>/</span> Mobile <span>/</span> Web</h2>
+          </li>
+          <li>
+            <a class="home-link home-moad animsition-link" href="moad.html">view case study</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+<footer class="contact-footer">
+
+  <h3 class="description-tags underline" id="contact-line">
+    <a href="mailto:hello@kevinchisaki.com" class="email-link nav-link email">Email</a> <span class="slash">/</span> <a href="./img/Kevin-Chisaki_Resume_2016.pdf" class="nav-link resume" target="_blank"> Resume </a> <span class="slash">/</span> <a href="https://www.linkedin.com/in/kevin-chisaki-91315359" class="nav-link linked-in" target="_blank"> LINKEDIN </a>  <span class="slash">/</span>  <a href="https://dribbble.com/kevinchisaki" class="nav-link dribbble" target="_blank"> DRIBBBLE </a>
+  </h3>
+
+</footer>
+
+    <footer class="copy-right">
+        <p>&copy; 2016 Kevin Chisaki. All Rights Reserved.</p>
+    </footer>
+</div>
+
+  </body>
+</html>
