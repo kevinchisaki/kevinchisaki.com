@@ -120,6 +120,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/guitar-center\/guitar-center-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.15685e+06,
+		"inputAbbreviatedPath": "\/img\/guitar-center\/guitar-center-mobile.png",
+		"outputAbbreviatedPath": "\/img\/guitar-center\/guitar-center-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/guitar-center\/guitar-center-screens.png": {
 		"fileType": 32768,
 		"ignore": 0,

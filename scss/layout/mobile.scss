@@ -9,6 +9,10 @@
 		color: $default;
 	}
 
+	.hide-br {
+		display: none;
+	}
+
 // Button Style Colors
 
 .venture-button {
@@ -728,6 +732,27 @@ iframe {
 		}
 }
 
+.guitar-mobile-bg-cs {
+	background: url(../img/guitar-center/guitar-bg.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 5%;
+	padding-bottom: 45%;
+	position: relative;
+		.guitar-mobile-cs {
+			position: absolute;
+			padding-top: 2em;
+			max-width: 95%;
+			height: auto;
+		    right: 0;
+		    left: 0;
+		    margin: auto;
+		}
+}
+
 .guitar-specs-bg {
 	background: url(../img/guitar-center/guitar-screen-bg.jpg); 
 	-webkit-background-size: cover;
@@ -1183,6 +1208,7 @@ iframe {
 	background-color: #f1f1f1;
 	p {
 		@include nexa-light;
+		text-transform: uppercase;
 		color: $default;
 		font-size: 0.8em;
 		padding: 15px 0px 10px 0px;
@@ -1194,6 +1220,7 @@ iframe {
 	background-color: #fcfcfc;
 	p {
 		@include nexa-light;
+		text-transform: uppercase;
 		color: $default;
 		font-size: 0.8em;
 		padding: 15px 0px 10px 0px;

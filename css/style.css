@@ -114,6 +114,9 @@ body {
 a {
   color: #4D4D4D; }
 
+.hide-br {
+  display: none; }
+
 .venture-button {
   color: #7DB1B1; }
 
@@ -748,6 +751,25 @@ iframe {
     left: 0;
     margin: auto; }
 
+.guitar-mobile-bg-cs {
+  background: url(../img/guitar-center/guitar-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5%;
+  padding-bottom: 45%;
+  position: relative; }
+  .guitar-mobile-bg-cs .guitar-mobile-cs {
+    position: absolute;
+    padding-top: 2em;
+    max-width: 95%;
+    height: auto;
+    right: 0;
+    left: 0;
+    margin: auto; }
+
 .guitar-specs-bg {
   background: url(../img/guitar-center/guitar-screen-bg.jpg);
   -webkit-background-size: cover;
@@ -1119,6 +1141,7 @@ iframe {
     font-family: NexaLight;
     font-weight: normal;
     font-style: normal;
+    text-transform: uppercase;
     color: #4D4D4D;
     font-size: 0.8em;
     padding: 15px 0px 10px 0px; }
@@ -1130,6 +1153,7 @@ iframe {
     font-family: NexaLight;
     font-weight: normal;
     font-style: normal;
+    text-transform: uppercase;
     color: #4D4D4D;
     font-size: 0.8em;
     padding: 15px 0px 10px 0px; }
@@ -1270,6 +1294,13 @@ iframe {
       padding-top: 60px;
       max-width: 60%; }
 
+  .guitar-mobile-bg-cs {
+    margin-bottom: 5%;
+    padding-bottom: 33%; }
+    .guitar-mobile-bg-cs .guitar-mobile-cs {
+      padding-top: 3em;
+      max-width: 70%; }
+
   .guitar-specs-bg {
     padding-bottom: 41%; }
     .guitar-specs-bg .guitar-screens {
@@ -1392,6 +1423,9 @@ iframe {
   .contact-bg {
     padding: 8% 0px 8% 0px; } }
 @media screen and (min-width: 64em) {
+  .hide-br {
+    display: block; }
+
   .nav-bg {
     padding: 55px 0px 60px 0px; }
     .nav-bg .kc-logo-holder {
@@ -1583,6 +1617,13 @@ iframe {
     .guitar-ipad-bg-cs .guitar-ipad-cs {
       padding-top: 70px;
       max-width: 50%; }
+
+  .guitar-mobile-bg-cs {
+    margin-bottom: 4%;
+    padding-bottom: 28%; }
+    .guitar-mobile-bg-cs .guitar-mobile-cs {
+      padding-top: 4em;
+      max-width: 60%; }
 
   .guitar-specs-bg {
     padding-bottom: 38%; }

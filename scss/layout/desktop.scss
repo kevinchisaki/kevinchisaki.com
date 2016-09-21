@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 64em) {
 
+	.hide-br {
+		display: block;
+	}
+
 	// Navigation	
 
 	.nav-bg {
@@ -292,6 +296,15 @@
 			.guitar-ipad-cs {
 				padding-top: 70px;
 				max-width: 50%;
+			}
+	}
+
+	.guitar-mobile-bg-cs {
+		margin-bottom: 4%;
+		padding-bottom: 28%;
+			.guitar-mobile-cs {
+				padding-top: 4em;
+				max-width: 60%;
 			}
 	}
 
