@@ -674,6 +674,27 @@
 		}
 }
 
+	.venture-mobile-bg {
+		background: url(../img/venture/venture-cover-02.jpg); 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: top;
+		padding-bottom: 59%;
+		margin-bottom: 14%;
+		position: relative;
+			.venture-mobile {
+				position: absolute;
+				padding-top: 45px;
+				max-width: 80%;
+				height: auto;
+			    right: 0;
+			    left: 0;
+			    margin: auto;
+			}
+	}
+
 // Guitar Center Case Study
 
 #guitar-center-bg {

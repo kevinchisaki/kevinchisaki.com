@@ -417,17 +417,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/venture\/venture-macbook-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 660578,
-		"inputAbbreviatedPath": "\/img\/venture\/venture-macbook-2.png",
-		"outputAbbreviatedPath": "\/img\/venture\/venture-macbook-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/venture\/venture-macbook-3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -439,13 +428,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/venture\/venture-macbook-4.png": {
+	"\/img\/venture\/venture-macbook-5.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 655328,
-		"inputAbbreviatedPath": "\/img\/venture\/venture-macbook-4.png",
-		"outputAbbreviatedPath": "\/img\/venture\/venture-macbook-4.png",
+		"initialSize": 658594,
+		"inputAbbreviatedPath": "\/img\/venture\/venture-macbook-5.png",
+		"outputAbbreviatedPath": "\/img\/venture\/venture-macbook-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -457,6 +446,28 @@
 		"initialSize": 669834,
 		"inputAbbreviatedPath": "\/img\/venture\/venture-macbook.png",
 		"outputAbbreviatedPath": "\/img\/venture\/venture-macbook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/venture\/venture-mobile-no-shadows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.12528e+06,
+		"inputAbbreviatedPath": "\/img\/venture\/venture-mobile-no-shadows.png",
+		"outputAbbreviatedPath": "\/img\/venture\/venture-mobile-no-shadows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/venture\/venture-mobile-shadows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.14765e+06,
+		"inputAbbreviatedPath": "\/img\/venture\/venture-mobile-shadows.png",
+		"outputAbbreviatedPath": "\/img\/venture\/venture-mobile-shadows.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
