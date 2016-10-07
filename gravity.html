@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animsition.css">
+    <link rel="icon" href="./favicon-2.png" sizes="16x16 32x32" type="image/png">
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
@@ -28,7 +29,6 @@
             inDuration: 700,
             outDuration: 500,
             linkElement: '.animsition-link',
-            // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
             loading: true,
             loadingParentElement: 'body', //animsition wrapper element
             loadingClass: 'animsition-loading',
@@ -45,8 +45,11 @@
         });
     </script>
 
-<body class="animsition">
+<body>
 
+<img class="animsition-loading" src="./img/home/kc-gravity.gif">
+
+<div class="container animsition">
 
 <!--Navigation-->
 
@@ -65,7 +68,7 @@
         <ul class="underline">
 
           <li>
-            <a href="journal.html" class="nav-link">Journal</a>
+            <a href="journal.html" class="nav-link animsition-link">Journal</a>
           </li>
 
           <li>
@@ -229,6 +232,8 @@
     <footer class="copy-right-white">
         <p>&copy; 2016 Kevin Chisaki. All Rights Reserved.</p>
     </footer>
+
+</div>
 
   </body>
 </html>

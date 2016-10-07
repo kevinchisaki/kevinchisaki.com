@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animsition.css">
+    <link rel="icon" href="./favicon-2.png" sizes="16x16 32x32" type="image/png">
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
@@ -27,7 +28,6 @@
             inDuration: 700,
             outDuration: 500,
             linkElement: '.animsition-link',
-            // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
             loading: true,
             loadingParentElement: 'body', //animsition wrapper element
             loadingClass: 'animsition-loading',
@@ -46,6 +46,8 @@
 
 <body>
 
+<img class="animsition-loading" src="./img/home/kc-slate.gif">
+
 <div class="container animsition">
 <!--Navigation-->
   <div class="nav-bg">
@@ -54,7 +56,7 @@
 
       <div class="kc-logo-holder small-12 medium-12 large-6 columns">
         <ul>
-          <li><a href="index.html" class="kc-logo"></a></li>
+          <li><a href="index.html" class="kc-logo animsition-link"></a></li>
           <li><img class="kc-name" src="./img/home/kc-logo-name-2.svg"></li>
         </ul>
       </div>
@@ -64,7 +66,7 @@
         <ul class="underline">
 
           <li>
-            <a href="journal.html" class="nav-link">Journal</a>
+            <a href="journal.html" class="nav-link animsition-link">Journal</a>
           </li>
 
           <li>
