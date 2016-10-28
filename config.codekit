@@ -285,6 +285,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home\/riverbed-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178615,
+		"inputAbbreviatedPath": "\/img\/home\/riverbed-bg-2.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/riverbed-bg-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home\/riverbed-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 652842,
+		"inputAbbreviatedPath": "\/img\/home\/riverbed-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/riverbed-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home\/venture-bg-bw.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -369,6 +391,50 @@
 		"initialSize": 398892,
 		"inputAbbreviatedPath": "\/img\/moad\/museumfront.jpg",
 		"outputAbbreviatedPath": "\/img\/moad\/museumfront.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/riverbed\/riverbed-bg-cs-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335181,
+		"inputAbbreviatedPath": "\/img\/riverbed\/riverbed-bg-cs-01.jpg",
+		"outputAbbreviatedPath": "\/img\/riverbed\/riverbed-bg-cs-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/riverbed\/riverbed-server-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49801,
+		"inputAbbreviatedPath": "\/img\/riverbed\/riverbed-server-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/riverbed\/riverbed-server-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/riverbed\/riverbed-sko-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54368,
+		"inputAbbreviatedPath": "\/img\/riverbed\/riverbed-sko-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/riverbed\/riverbed-sko-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/riverbed\/sko-agenda-mock.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.46787e+06,
+		"inputAbbreviatedPath": "\/img\/riverbed\/sko-agenda-mock.png",
+		"outputAbbreviatedPath": "\/img\/riverbed\/sko-agenda-mock.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -673,6 +739,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/riverbed.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/riverbed.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/_fonts.scss": {
 		"createSourceMap": 0,

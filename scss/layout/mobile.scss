@@ -62,8 +62,20 @@
 .moad-button:hover {
 	border-color: $moad-green;
 }
-	
-// Link Styles 
+
+.riverbed-button {
+	color: $riverbed-blue;
+}
+
+.riverbed-button::before {
+	background: $riverbed-blue;
+}
+
+.riverbed-button:hover {
+	border-color: $riverbed-blue;
+}
+
+// Link Styles
 
 	.nav-link {
 		@include nexa-light;
@@ -242,7 +254,11 @@
 	background-color: $moad-green;
 }
 
-// Navigation	
+.home-riverbed::after {
+	background-color: $riverbed-orange;
+}
+
+// Navigation
 
 	.nav-bg {
 		background-color: #fff;
@@ -372,7 +388,7 @@
 }
 
 .venture-bg {
-	background: url(../img/home/venture-bg-bw.jpg); 
+	background: url(../img/home/venture-bg-bw.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -400,7 +416,7 @@
 }
 
 .guitar-bg {
-	background: url(../img/home/guitar-center-bg-bw.jpg); 
+	background: url(../img/home/guitar-center-bg-bw.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -421,7 +437,7 @@
 }
 
 .gravity-bg {
-	background: url(../img/home/gravity-bg.png); 
+	background: url(../img/home/gravity-bg.png);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -443,12 +459,33 @@
 }
 
 .moad-bg {
-	background: url(../img/home/moad-cover-bg.jpg); 
+	background: url(../img/home/moad-cover-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: top left;
+	position: relative;
+	z-index: 4;
+	.row {
+		@include vertical-align;
+		.moad-cards-bg {
+			margin-bottom: 40px;
+			text-align: center;
+			.moad-cards-home {
+				max-width: 90%;
+			}
+		}
+	}
+}
+
+.riverbed-bg {
+	background: url(../img/home/riverbed-bg-2.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
 	position: relative;
 	z-index: 4;
 	.row {
@@ -507,6 +544,9 @@
 			text-rendering: optimizeLegibility;
 			padding-top: 15px;
 		}
+		span {
+			color: #4F4F4F !important;
+		}
 }
 
 .about-description-link {
@@ -534,7 +574,7 @@
 
 
 .description {
-		
+
 		h2 {
 			text-align: center;
 			@include nexa-bold;
@@ -552,10 +592,10 @@
 		}
 }
 
-// Venture Case Study 
+// Venture Case Study
 
 #venture-bg {
-	background: url(../img/venture/venture-cover-01.jpg); 
+	background: url(../img/venture/venture-cover-01.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -584,7 +624,7 @@
 }
 
 .description {
-		
+
 		h2 {
 			text-align: center;
 			@include nexa-bold;
@@ -614,7 +654,7 @@
 }
 
 .venture-search-bg {
-	background: url(../img/venture/venture-cover-02.jpg); 
+	background: url(../img/venture/venture-cover-02.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -635,7 +675,7 @@
 }
 
 .venture-browse-bg {
-	background: url(../img/venture/venture-cover-03.jpg); 
+	background: url(../img/venture/venture-cover-03.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -655,7 +695,7 @@
 }
 
 .venture-comment-bg {
-	background: url(../img/venture/venture-comment-bg.jpg); 
+	background: url(../img/venture/venture-comment-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -675,7 +715,7 @@
 }
 
 	.venture-mobile-bg {
-		background: url(../img/venture/venture-cover-02.jpg); 
+		background: url(../img/venture/venture-cover-02.jpg);
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -698,7 +738,7 @@
 // Guitar Center Case Study
 
 #guitar-center-bg {
-	background: url(../img/guitar-center/guitar-center-bg.jpg); 
+	background: url(../img/guitar-center/guitar-center-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -733,7 +773,7 @@ iframe {
 }
 
 .guitar-ipad-bg-cs {
-	background: url(../img/guitar-center/guitar-bg.jpg); 
+	background: url(../img/guitar-center/guitar-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -754,7 +794,7 @@ iframe {
 }
 
 .guitar-mobile-bg-cs {
-	background: url(../img/guitar-center/guitar-bg.jpg); 
+	background: url(../img/guitar-center/guitar-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -775,7 +815,7 @@ iframe {
 }
 
 .guitar-specs-bg {
-	background: url(../img/guitar-center/guitar-screen-bg.jpg); 
+	background: url(../img/guitar-center/guitar-screen-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -795,7 +835,7 @@ iframe {
 }
 
 .guitar-gps-bg {
-	background: url(../img/guitar-center/guitar-gps-bg.jpg); 
+	background: url(../img/guitar-center/guitar-gps-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -814,7 +854,7 @@ iframe {
 }
 
 .guitar-logo-bg {
-	background: url(../img/guitar-center/guitar-bg.jpg); 
+	background: url(../img/guitar-center/guitar-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -832,10 +872,10 @@ iframe {
 		}
 }
 
-// Gravity Case Study 
+// Gravity Case Study
 
 #gravity-bg-cs {
-	background: url(../img/gravity/gravity-cover.svg); 
+	background: url(../img/gravity/gravity-cover.svg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -991,7 +1031,7 @@ iframe {
 }
 
 #moad-bg-cs {
-	background: url(../img/moad/moad-cover-bg.jpg); 
+	background: url(../img/moad/moad-cover-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1006,7 +1046,7 @@ iframe {
 }
 
 .moad-cards-case-bg {
-	background: url(../img/moad/moad-cards.jpg); 
+	background: url(../img/moad/moad-cards.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1028,7 +1068,7 @@ iframe {
 }
 
 .moad-poster-bg {
-	background: url(../img/moad/city-texture.jpg); 
+	background: url(../img/moad/city-texture.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1049,7 +1089,7 @@ iframe {
 }
 
 .moad-app-bg {
-	background: url(../img/moad/moad-app.jpg); 
+	background: url(../img/moad/moad-app.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1061,7 +1101,7 @@ iframe {
 }
 
 .moad-building-bg {
-	background: url(../img/moad/museumfront.jpg); 
+	background: url(../img/moad/museumfront.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1070,6 +1110,68 @@ iframe {
 	padding-bottom: 59%;
 	position: relative;
 }
+
+// Riverbed Case Study
+
+#riverbed-tags {
+	color: $riverbed-blue;
+}
+
+#riverbed-bg {
+	background: url(../img/riverbed/riverbed-bg-cs-01.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	.riverbed-logo {
+		@include vertical-align;
+		height: auto;
+		max-width: 70%;
+	}
+}
+
+.riverbed-icons-bg {
+	background: url(../img/riverbed/riverbed-server-bg.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	background-color: #ECEFF1;
+	height: 70vh;
+	position: relative;
+	text-align: center;
+			.riverbed-icons {
+			position: absolute;
+			max-width: 50%;
+			@include vertical-align;
+
+		}
+}
+
+.sko-mobile-bg-cs {
+	// background: url(../img/guitar-center/guitar-bg.jpg);
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
+	// background-position: center;
+	background-color: #ECEFF1;
+	margin-bottom: 11%;
+	padding-bottom: 69%;
+	position: relative;
+		.sko-mobile-cs {
+			position: absolute;
+			padding-top: 2em;
+			max-width: 95%;
+			height: auto;
+				right: 0;
+				left: 0;
+				margin: auto;
+		}
+}
+
 
 // Case Study Footer
 
@@ -1107,7 +1209,7 @@ iframe {
 
 }
 
-// Contact Page 
+// Contact Page
 
 .slash {
 	color: #aaa;
@@ -1115,7 +1217,7 @@ iframe {
 }
 
 .contact-page {
-	
+
 }
 
 .contact-bg {
@@ -1123,7 +1225,7 @@ iframe {
 	padding: 15% 0px 15% 0px;
 	text-align: center;
 	.contact-content {
-	text-align: center;	
+	text-align: center;
 			.profile {
 				height: 150px;
 				width: auto;
@@ -1249,14 +1351,14 @@ iframe {
 }
 
 
-// Journal 
+// Journal
 
 .journal-bg {
 	background-color: #f3f3f3;
 	padding: 15% 0px 15% 0px;
 	text-align: center;
 	.journal-content {
-	text-align: center;	
+	text-align: center;
 			.profile {
 				height: 150px;
 				width: auto;
@@ -1285,4 +1387,3 @@ iframe {
 			}
 	}
 }
-

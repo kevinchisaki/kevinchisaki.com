@@ -6,7 +6,7 @@
 		display: block;
 	}
 
-	// Navigation	
+	// Navigation
 
 	.nav-bg {
 		padding: 55px 0px 60px 0px;
@@ -157,7 +157,7 @@
 	.guitar-bg {
 
 		.row {
-			
+
 			.guitar-ipad-bg {
 				margin-bottom: 0px;
 				text-align: left;
@@ -196,6 +196,27 @@
 		}
 	}
 
+	.riverbed-bg {
+		background: url(../img/home/riverbed-bg-2.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		z-index: 4;
+		.row {
+			@include vertical-align;
+			.moad-cards-bg {
+				margin-bottom: 40px;
+				text-align: center;
+				.moad-cards-home {
+					max-width: 90%;
+				}
+			}
+		}
+	}
+
 	// Case Study
 
 	.about-description {
@@ -214,7 +235,7 @@
 	}
 
 	.description {
-			
+
 			h2 {
 
 			}
@@ -223,10 +244,10 @@
 				padding-top: 15px;
 				padding-bottom: 15px;
 			}
-	} 
+	}
 
 
-	// Venture Case Study 
+	// Venture Case Study
 
 	#venture-bg {
 		background-position: bottom;
@@ -271,7 +292,7 @@
 			}
 	}
 
-	// Guitar Center Case Study 
+	// Guitar Center Case Study
 
 	#guitar-center-bg {
 
@@ -339,7 +360,7 @@
 			}
 	}
 
-	// Gravity Case Study  
+	// Gravity Case Study
 
 	#gravity-bg-cs {
 
@@ -467,7 +488,7 @@
 
 	}
 
-	// MOAD Case Study 
+	// MOAD Case Study
 
 	#moad-bg-cs {
 		background-position: bottom;
@@ -503,7 +524,61 @@
 		padding-bottom: 35%;
 	}
 
-	// Contact 
+	// Riverbed Case Study
+
+	#riverbed-bg {
+
+		.riverbed-logo {
+			@include vertical-align;
+			height: auto;
+			max-width: 30%;
+		}
+	}
+
+	.riverbed-icons-bg {
+		background: url(../img/riverbed/riverbed-server-bg.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: bottom;
+		background-color: #ECEFF1;
+		height: 70vh;
+		position: relative;
+		text-align: center;
+				.riverbed-icons {
+				position: absolute;
+				max-width: 50%;
+				@include vertical-align;
+
+			}
+	}
+
+	.sko-mobile-bg-cs {
+		background: url(../img/riverbed/riverbed-sko-bg.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		background-color: #ECEFF1;
+		margin-bottom: 5.3%;
+		padding-bottom: 35%;
+		position: relative;
+			.sko-mobile-cs {
+				position: absolute;
+				padding-top: 3.5em;
+				max-width: 48%;
+				height: auto;
+			    right: 0;
+			    left: 0;
+			    margin: auto;
+			}
+	}
+
+
+
+	// Contact
 
 	.contact-bg {
 		padding: 5% 0px 5% 0px;
@@ -511,4 +586,3 @@
 	}
 
 }
-
