@@ -7,7 +7,7 @@
 			ul {
 
 				li {
-					
+
 					.kc-logo {
 						background-image: url("../img/home/kc-logo-scroll.svg");
 						background-repeat: no-repeat;
@@ -67,7 +67,7 @@
 	.guitar-bg {
 
 		.row {
-			
+
 			.guitar-ipad-bg {
 				margin-bottom: 40px;
 				text-align: center;
@@ -106,14 +106,29 @@
 		}
 	}
 
-	.footer-home {
-		height: inherit;
-		.email {
-			
+	.riverbed-bg {
+
+		.row {
+			@include vertical-align;
+			.riverbed-phone-holder {
+				margin-bottom: 40px;
+				text-align: center;
+				.riverbed-home {
+					max-width: 40%;
+				}
+			}
 		}
 	}
 
-	// Venture Case Study 
+
+	.footer-home {
+		height: inherit;
+		.email {
+
+		}
+	}
+
+	// Venture Case Study
 
 	#venture-bg {
 		background-position: bottom;
@@ -151,7 +166,7 @@
 			}
 	}
 
-	// Guitar Center Case Study 
+	// Guitar Center Case Study
 
 	#guitar-center-bg {
 
@@ -202,7 +217,7 @@
 			}
 	}
 
-	// Gravity Case Study  
+	// Gravity Case Study
 
 	#gravity-bg-cs {
 
@@ -330,7 +345,7 @@
 
 	}
 
-	// MOAD Case Study 
+	// MOAD Case Study
 
 	#moad-bg-cs {
 		background-position: bottom;
@@ -366,7 +381,34 @@
 		padding-bottom: 45%;
 	}
 
-	// Contact 
+	#riverbed-bg {
+
+		.riverbed-logo {
+			height: auto;
+			max-width: 40%;
+		}
+	}
+
+	.riverbed-icons-bg {
+		height: 65vh;
+		text-align: center;
+		margin-bottom: 4%;
+				.riverbed-icons {
+				padding-top: 7em;
+				max-width: 80%;
+			}
+	}
+
+	.sko-mobile-bg-cs {
+		margin-bottom: 9%;
+		padding-bottom: 51%;
+			.sko-mobile-cs {
+				padding-top: 3em;
+				max-width: 70%;
+			}
+	}
+
+	// Contact
 
 	.contact-bg {
 		padding: 8% 0px 8% 0px;

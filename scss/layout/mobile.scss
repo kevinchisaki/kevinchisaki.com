@@ -490,11 +490,11 @@
 	z-index: 4;
 	.row {
 		@include vertical-align;
-		.moad-cards-bg {
+		.riverbed-phone-holder {
 			margin-bottom: 40px;
 			text-align: center;
-			.moad-cards-home {
-				max-width: 90%;
+			.riverbed-home {
+				max-width: 80%;
 			}
 		}
 	}
@@ -1139,24 +1139,26 @@ iframe {
 	background-size: cover;
 	background-position: bottom;
 	background-color: #ECEFF1;
-	height: 70vh;
+	height: 40vh;
 	position: relative;
 	text-align: center;
+	margin-bottom: 4%;
 			.riverbed-icons {
+			padding-top: 5em;
 			position: absolute;
-			max-width: 50%;
+			max-width: 120%;
 			@include vertical-align;
 
 		}
 }
 
 .sko-mobile-bg-cs {
-	// background: url(../img/guitar-center/guitar-bg.jpg);
-	// -webkit-background-size: cover;
-	// -moz-background-size: cover;
-	// -o-background-size: cover;
-	// background-size: cover;
-	// background-position: center;
+	background: url(../img/riverbed/riverbed-sko-bg.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
 	background-color: #ECEFF1;
 	margin-bottom: 11%;
 	padding-bottom: 69%;

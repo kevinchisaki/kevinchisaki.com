@@ -47,13 +47,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/FAVICON-2.png": {
+	"\/favicon-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20275,
-		"inputAbbreviatedPath": "\/FAVICON-2.png",
-		"outputAbbreviatedPath": "\/FAVICON-2.png",
+		"inputAbbreviatedPath": "\/favicon-2.png",
+		"outputAbbreviatedPath": "\/favicon-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -307,6 +307,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home\/riverbed-perspective.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555509,
+		"inputAbbreviatedPath": "\/img\/home\/riverbed-perspective.png",
+		"outputAbbreviatedPath": "\/img\/home\/riverbed-perspective.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home\/venture-bg-bw.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -402,6 +413,17 @@
 		"initialSize": 335181,
 		"inputAbbreviatedPath": "\/img\/riverbed\/riverbed-bg-cs-01.jpg",
 		"outputAbbreviatedPath": "\/img\/riverbed\/riverbed-bg-cs-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/riverbed\/riverbed-partner-icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 491070,
+		"inputAbbreviatedPath": "\/img\/riverbed\/riverbed-partner-icons.png",
+		"outputAbbreviatedPath": "\/img\/riverbed\/riverbed-partner-icons.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
